@@ -11,7 +11,7 @@ namespace DanfossProject
         void ProvideAllConfigurationData(Model model);
         void ProvideParameners();
         
-        bool IsOperatingg();
+        void IsOperatingg();
 
     }
     internal interface interface2

@@ -36,7 +36,7 @@ namespace DanfossProject
 
             }
         }
-        public bool IsOperatingg()
+        public void IsOperatingg()
         {
             throw new NotImplementedException();
 
