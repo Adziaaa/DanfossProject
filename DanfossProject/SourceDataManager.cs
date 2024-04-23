@@ -1,4 +1,72 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using CsvHelper;
+using CsvHelper.Configuration;
 
+public class CsvRecord
+{
+    public string TimeFrom { get; set; }
+    public string TimeTo { get; set; }
+    public double HeatDemand { get; set; }
+    public double ElectricityPrice { get; set; }
+}
+
+public class CsvManager
+{
+    private string csvfilePath = "SourceDataManager.csv";
+
+    public List<CsvRecord> ReadCsv()
+    {
+        using (var reader = new StreamReader(csvfilePath))
+        using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
+        {
+            return csv.GetRecords<CsvRecord>().ToList();
+        }
+    }
+
+    public bool CheckCsvFile()
+    {
+        if (!File.Exists(csvfilePath))
+        {
+            Console.WriteLine($"CSV file '{csvfilePath}' does not exist.");
+            return false;
+        }
+
+        return true;
+    }
+    public void WriteCsv(List<CsvRecord> records)
+    {
+        using (var writer = new StreamWriter(csvfilePath))
+        using (var csv = new CsvWriter(writer, new CsvConfiguration(CultureInfo.InvariantCulture)))
+        {
+            csv.WriteRecords(records);
+        }
+    }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        CsvManager csvManager = new CsvManager();
+
+        if (!csvManager.CheckCsvFile())
+        {
+            Console.WriteLine("CSV file does not exist. Cannot proceed.");
+            return;
+        }
+
+        var records = csvManager.ReadCsv();
+        foreach (var record in records)
+        {
+            Console.WriteLine($"{record.TimeFrom} - {record.TimeTo}: Heat Demand={record.HeatDemand}, Electricity Price={record.ElectricityPrice}");
+        }
+
+        Console.WriteLine("CSV file updated successfully.");
+    }
+}
 
 
 
