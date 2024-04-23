@@ -5,6 +5,8 @@ using System.IO;
 using CsvHelper;
 using CsvHelper.Configuration;
 
+namespace DanfossProject
+{ 
 public class CsvRecord
 {
     public string TimeFrom { get; set; }
@@ -22,9 +24,12 @@ public class CsvManager
         using (var reader = new StreamReader(csvfilePath))
         using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
         {
-            return csv.GetRecords<CsvRecord>().ToList();
+                Console.WriteLine("It worked");
+                Console.Read();
+                return csv.GetRecords<CsvRecord>().ToList();
         }
-    }
+
+        }
 
     public bool CheckCsvFile()
     {
@@ -45,28 +50,9 @@ public class CsvManager
         }
     }
 }
-
-public class Program
-{
-    public static void Main()
-    {
-        CsvManager csvManager = new CsvManager();
-
-        if (!csvManager.CheckCsvFile())
-        {
-            Console.WriteLine("CSV file does not exist. Cannot proceed.");
-            return;
-        }
-
-        var records = csvManager.ReadCsv();
-        foreach (var record in records)
-        {
-            Console.WriteLine($"{record.TimeFrom} - {record.TimeTo}: Heat Demand={record.HeatDemand}, Electricity Price={record.ElectricityPrice}");
-        }
-
-        Console.WriteLine("CSV file updated successfully.");
-    }
 }
+
+
 
 
 

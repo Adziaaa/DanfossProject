@@ -11,6 +11,22 @@ namespace DanfossProject
             FunctionalityOfAM assetManager = new FunctionalityOfAM();
             assetManager.AddAssets();
 
+            CsvManager csvManager = new CsvManager();
+
+            if (!csvManager.CheckCsvFile())
+            {
+                Console.WriteLine("CSV file does not exist. Cannot proceed.");
+                return;
+            }
+
+            var records = csvManager.ReadCsv();
+            foreach (var record in records)
+            {
+                Console.WriteLine($"{record.TimeFrom} - {record.TimeTo}: Heat Demand={record.HeatDemand}, Electricity Price={record.ElectricityPrice}");
+            }
+
+            Console.WriteLine("CSV file updated successfully.");
+
             while (true)
             {
 
