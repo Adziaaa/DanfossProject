@@ -24,34 +24,29 @@ namespace DanfossProject
             this.electricBoiler = img;
         }
         //Displaying the photo
-        public void DisplayImage()
-        {
-            foreach (var Photos in photos)
-            {
+        //public void DisplayImage()
+        //{
+        //    foreach (var Photos in photos)
+        //    {
 
-                if (photos != null)
-                {
-                    // showing the photo
-                    Console.WriteLine("`Photo: ");
-                    // in progress
-                    // Photos myImage = Photos.FromFile(".png");
+        //        if (photos != null)
+        //        {
+        //            // showing the photo
+        //            Console.WriteLine("`Photo: ");
+        //            // in progress
+        //            Photos myImage = Photos.FromFile(".png");
 
-                    Photos myObject = new Photos(myImage);
+        //            Photos myObject = new Photos(myImage); //myImage paramiter
 
-                    // Call the method to display the image
-                    myObject.DisplayImage();
-                }
-                else
-                {
-                    Console.WriteLine("Couldn't display the image");
+        //            // Call the method to display the image
+        //            myObject.DisplayImage();
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("Couldn't display the image");
 
-                }
-            }
-
-
-
-
-
-        }
+        //        }
+        //    }
+        //}
     }
 }

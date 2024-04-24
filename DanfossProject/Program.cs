@@ -11,6 +11,18 @@ namespace DanfossProject
             FunctionalityOfAM assetManager = new FunctionalityOfAM();
             assetManager.AddAssets();
 
+            CsvManager SdmObject = new CsvManager();
+
+            
+            List<SdmRecord> WinterSourceDataManager = SdmObject.ReadCsv("Winter_SDM.csv");
+            List<SdmRecord> SummerSourceDataManager = SdmObject.ReadCsv("Summer_SDM.csv");
+            //Console.WriteLine("\nWinter:");
+            SdmObject.DisplaySdm(WinterSourceDataManager);
+            //Console.WriteLine("\nSummer: ");
+            SdmObject.DisplaySdm(SummerSourceDataManager);
+            //Console.Read();
+
+
             while (true)
             {
 
