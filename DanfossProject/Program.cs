@@ -11,21 +11,17 @@ namespace DanfossProject
             FunctionalityOfAM assetManager = new FunctionalityOfAM();
             assetManager.AddAssets();
 
-            CsvManager csvManager = new CsvManager();
+            CsvManager SdmObject = new CsvManager();
 
-            if (!csvManager.CheckCsvFile())
-            {
-                Console.WriteLine("CSV file does not exist. Cannot proceed.");
-                return;
-            }
+            
+            List<SdmRecord> WinterSourceDataManager = SdmObject.ReadCsv("Winter_SDM.csv");
+            List<SdmRecord> SummerSourceDataManager = SdmObject.ReadCsv("Summer_SDM.csv");
+            //Console.WriteLine("\nWinter:");
+            SdmObject.DisplaySdm(WinterSourceDataManager);
+            //Console.WriteLine("\nSummer: ");
+            SdmObject.DisplaySdm(SummerSourceDataManager);
+            //Console.Read();
 
-            var records = csvManager.ReadCsv();
-            foreach (var record in records)
-            {
-                Console.WriteLine($"{record.TimeFrom} - {record.TimeTo}: Heat Demand={record.HeatDemand}, Electricity Price={record.ElectricityPrice}");
-            }
-
-            Console.WriteLine("CSV file updated successfully.");
 
             while (true)
             {

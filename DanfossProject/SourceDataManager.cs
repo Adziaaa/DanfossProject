@@ -7,7 +7,7 @@ using CsvHelper.Configuration;
 
 namespace DanfossProject
 { 
-public class CsvRecord
+public class SdmRecord
 {
     public string TimeFrom { get; set; }
     public string TimeTo { get; set; }
@@ -17,21 +17,23 @@ public class CsvRecord
 
 public class CsvManager
 {
-    private string csvfilePath = "SourceDataManager.csv";
 
-    public List<CsvRecord> ReadCsv()
+
+    public List<SdmRecord> ReadCsv(string CsvPath)
     {
-        using (var reader = new StreamReader(csvfilePath))
-        using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
+            var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HasHeaderRecord = false,
+            };
+            using (var reader = new StreamReader(CsvPath))
+        using (var csv = new CsvReader(reader, config))
         {
-                Console.WriteLine("It worked");
-                Console.Read();
-                return csv.GetRecords<CsvRecord>().ToList();
-        }
+                return csv.GetRecords<SdmRecord>().ToList(); 
+            }
 
         }
 
-    public bool CheckCsvFile()
+    public bool CheckCsvFile(string csvfilePath)
     {
         if (!File.Exists(csvfilePath))
         {
@@ -41,9 +43,17 @@ public class CsvManager
 
         return true;
     }
-    public void WriteCsv(List<CsvRecord> records)
+
+    public void DisplaySdm(List<SdmRecord> list)
+        {
+            foreach (var item in list){
+                Console.WriteLine($"{item.TimeFrom} - {item.TimeTo}: Heat Demand={item.HeatDemand}, Electricity Price={item.ElectricityPrice}");
+            }
+        }
+
+    public void WriteCsv(List<SdmRecord> records, string CsvName)
     {
-        using (var writer = new StreamWriter(csvfilePath))
+        using (var writer = new StreamWriter(CsvName))
         using (var csv = new CsvWriter(writer, new CsvConfiguration(CultureInfo.InvariantCulture)))
         {
             csv.WriteRecords(records);
