@@ -15,10 +15,8 @@ namespace DanfossProject
             _assetManager = assetManager;
         }
 
-        public void OptimizeEnergy(string csvFilePath)
+        public void OptimizeEnergy()
         {
-            // Readind data off CSV (?)
-            List<SdmRecord> sdmRecords = _csvManager.ReadCsv(csvFilePath);
 
             // Energy demand calc
             double totalEnergyDemand = sdmRecords.Sum(record => record.HeatDemand);
@@ -58,19 +56,6 @@ namespace DanfossProject
             {
                 Console.WriteLine("No operating assets available.");
             }
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            CsvManager csvManager = new CsvManager();
-            FunctionalityOfAM assetManager = new FunctionalityOfAM();
-            assetManager.AddAssets(); // Agregar las unidades de energía disponibles
-
-            EnergyOptimizer energyOptimizer = new EnergyOptimizer(csvManager, assetManager);
-            energyOptimizer.OptimizeEnergy(".csv"); // Ruta del archivo CSV con los datos de demanda y precios de electricidad
         }
     }
 }
