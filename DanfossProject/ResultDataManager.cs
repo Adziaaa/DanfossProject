@@ -8,6 +8,7 @@ namespace DanfossProject
 {
     public class RdmRecord
     {
+        //not yet ready waiting for data optimiser.
         //string efficiencyByCost.Modle.Name { get; set; }
         //string lowestC02Emmisions.Name { get; set; }
     }
