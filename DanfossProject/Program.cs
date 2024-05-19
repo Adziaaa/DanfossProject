@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Reflection;
 using System.Transactions;
 
@@ -17,11 +18,15 @@ namespace DanfossProject
             List<SdmRecord> WinterSourceDataManager = SdmObject.ReadCsv("Winter_SDM.csv");
             List<SdmRecord> SummerSourceDataManager = SdmObject.ReadCsv("Summer_SDM.csv");
             //Console.WriteLine("\nWinter:");
-            SdmObject.DisplaySdm(WinterSourceDataManager);
+            ///SdmObject.DisplaySdm(WinterSourceDataManager);
             //Console.WriteLine("\nSummer: ");
-            SdmObject.DisplaySdm(SummerSourceDataManager);
+            //SdmObject.DisplaySdm(SummerSourceDataManager);
             //Console.Read();
 
+            var opti = new EnergyOptimizer(SdmObject, assetManager);
+            opti.OptimizeEnergy(WinterSourceDataManager, SummerSourceDataManager);
+
+            Console.WriteLine("1.Start asset\n2.Start asset\n3.Exit");
 
             while (true)
             {
@@ -43,9 +48,6 @@ namespace DanfossProject
                         }
                         break;
                     case "3":
-
-                        break;
-                    case "4":
                         // Exit application
                         Console.WriteLine("Exiting application...");
                         return;

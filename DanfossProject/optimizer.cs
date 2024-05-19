@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace DanfossProject
 {
-    public class EnergyOptimizer
+    internal class EnergyOptimizer
     {
         private readonly CsvManager _csvManager;
         private readonly FunctionalityOfAM _assetManager;
@@ -16,11 +16,10 @@ namespace DanfossProject
             _assetManager = assetManager;
         }
 
-        public void OptimizeEnergy()
+        public void OptimizeEnergy(List<SdmRecord> WinterSourceDataManager, List<SdmRecord> SummerSourceDataManager)
         {
-
             // Energy demand calc
-            double totalEnergyDemand = sdmRecords.Sum(record => record.HeatDemand);
+            double totalEnergyDemand = WinterSourceDataManager.Sum(record => record.HeatDemand) + SummerSourceDataManager.Sum(record => record.HeatDemand);
 
             // Assets available
             List<Model> availableAssets = _assetManager.AssetManager;
@@ -61,3 +60,4 @@ namespace DanfossProject
             }
         }
     }
+}
