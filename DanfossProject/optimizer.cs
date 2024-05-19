@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DanfossProject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -28,34 +29,35 @@ namespace DanfossProject
             List<Model> operatingAssets = availableAssets.Where(asset => asset.IsOperating).ToList();
 
             // Getting the ratio of energy gained per dkr spent
-            var efficiencyByCost = operatingAssets.Select(asset => new
-            {
-                Model = asset,
-                Efficiency = asset.ProductionCosts / asset.MaxElectricity
-            }).OrderByDescending(x => x.Efficiency).FirstOrDefault();
-
+            var mostCostEfficientAsset = operatingAssets
+                .Select(asset => new
+                {
+                    Asset = asset,
+                    CostEfficiency = asset.MaxElectricity / asset.ProductionCosts
+                })
+                .OrderByDescending(x => x.CostEfficiency)
+                .FirstOrDefault()?.Asset;
             // CO2 thingy
-            var lowestCO2Emission = operatingAssets.OrderBy(asset => asset.CO2Consumpition).FirstOrDefault();
+            var lowestCO2EmissionAsset = operatingAssets.OrderBy(asset => asset.CO2Consumpition).FirstOrDefault();
 
             // Here it selects the best by costs
-            if (efficiencyByCost != null)
+            if (mostCostEfficientAsset != null)
             {
-                Console.WriteLine($"The most efficient unit in terms of price/energy produced is: {efficiencyByCost.Model.Name}");
+                Console.WriteLine($"The most efficient unit in terms of cost/energy produced is: {mostCostEfficientAsset.Name}");
             }
             else
             {
-                Console.WriteLine("No operating assets available.");
+                Console.WriteLine("No operating assets available for cost optimization.");
             }
 
             // Here it does the same but with the least Co2
-            if (lowestCO2Emission != null)
+            if (lowestCO2EmissionAsset != null)
             {
-                Console.WriteLine($"The unit emitting the least CO2 is: {lowestCO2Emission.Name}");
+                Console.WriteLine($"The unit emitting the least CO2 is: {lowestCO2EmissionAsset.Name}");
             }
             else
             {
-                Console.WriteLine("No operating assets available.");
+                Console.WriteLine("No operating assets available for CO2 optimization.");
             }
         }
     }
-}
