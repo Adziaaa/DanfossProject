@@ -27,12 +27,7 @@ namespace DanfossProject
 
         public static void RdmCsvReader()
         {
-            if(!File.Exists("ResultData.csv"))
-            {
-                Console.WriteLine(".csv file not found");
-                return;
-            }
-            else
+            if (File.Exists("ResultData.csv"))
             {
                 List<RdmRecord> outputRecords = new();
 
@@ -46,6 +41,10 @@ namespace DanfossProject
                         Console.WriteLine(record);
                     }
                 }
+            }
+            else
+            {
+                Console.WriteLine("File not found.");
             }
         }
     }
