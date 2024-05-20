@@ -19,8 +19,8 @@
 						<RowDefinition></RowDefinition>
 						<RowDefinition></RowDefinition>
 					</Grid.RowDefinitions>
-					<Calendar HorizontalAlignment="Left" Margin="185,90,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.RowSpan="3" Height="200" Width="300" Background="#FFEE2F2F"/>
-					<TextBlock Grid.Row="3" FontWeight="Bold" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="209,0,0,40">
+					<Calendar HorizontalAlignment="Center" Margin="90" Grid.Row="1" VerticalAlignment="Top" Grid.RowSpan="3" Height="280" Width="300" Background="#FFEE2F2F"/>
+					<TextBlock Grid.Row="3" FontWeight="Bold" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="263,0,0,40">
 						ENGINEERING
 						TOMORROW
 					</TextBlock>
@@ -56,31 +56,33 @@
 			<TabItem Background="Red" Name="HPO" Header="Heat Production Optimization " >
 				<Grid>
 					<TabControl>
-						<TabItem FontSize="17" Header="Legend">
-							<Grid>
-								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  FontSize="27" Margin="0,0,0,0" >Heat Demand - MWh </TextBlock>
-								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  FontSize="27"  Margin="0,50,0,0" >Electricity Price - DKK / Mwh(el)</TextBlock>
-								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  FontSize="27" Margin="0,100,0,0">Winter: 1-8th February,2-9th February,3-10th February...</TextBlock>
-								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="27" Margin="0,150,0,0">Summer: 1-7th June,2-8th June,3-9th June...</TextBlock>
-
-							</Grid>
-								</TabItem>
-						<TabItem FontSize="17" Background="LightGreen" Header="Winter Electricity Price">
-							<Grid>
-								<ScottPlot:AvaPlot Name="WinterElectricityPrice" />
-							</Grid>
+						
+						<TabItem FontSize="15" Background="LightGreen" Header="Winter Electricity Price">
+							<ScrollViewer>
+								<Grid>
+									<ScottPlot:AvaPlot Name="WinterElectricityPrice" />
+									<TextBox FontSize="8">Electricity Price - DKK / Mwh(el), Winter: 1-8th February,2-9th February,3-10th February...</TextBox>
+								</Grid>
+							</ScrollViewer>
+							
 						</TabItem >
 						
-						<TabItem FontSize="17" Background="LightGreen" Header="Winter Heat Demand ">
-							<Grid><ScottPlot:AvaPlot Name="WinterHeat" /></Grid>
+						<TabItem FontSize="15" Background="LightGreen" Header="Winter Heat Demand ">
+							<Grid><ScottPlot:AvaPlot Name="WinterHeat" />
+								<TextBox FontSize="8">Heat Demand - MWh , Winter: 1-8th February,2-9th February,3-10th February...,</TextBox>
+							</Grid>
 						</TabItem>
 						
-						<TabItem FontSize="17" Background="LightGreen" Header="Summer ElectrityPrice">
-							<Grid><ScottPlot:AvaPlot Name="SummerElectrityPrice" /></Grid>
+						<TabItem FontSize="15" Background="LightGreen" Header="Summer ElectrityPrice">
+							<Grid><ScottPlot:AvaPlot Name="SummerElectrityPrice" />
+								<TextBox FontSize="8">Electricity Price - DKK / Mwh(el), Summer: 1-7th June,2-8th June,3-9th June...</TextBox>
+							</Grid>
 						</TabItem>
 						
-						<TabItem FontSize="17" Background="LightGreen" Header="Summer Heat Demand">
-							<Grid><ScottPlot:AvaPlot Name="summerHeatDemand" /></Grid>
+						<TabItem FontSize="15" Background="LightGreen" Header="Summer Heat Demand">
+							<Grid><ScottPlot:AvaPlot Name="summerHeatDemand" />
+								<TextBox FontSize="8">Heat Demand - MWh, Summer: 1-7th June,2-8th June,3-9th June...</TextBox>
+							</Grid>
 
 						</TabItem>
 						
