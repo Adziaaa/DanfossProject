@@ -8,7 +8,49 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Danfoss\.vs\Danfoss%281%29\v17\DocumentLayout.json" />
+    <Content Include="Danfoss\.vs\Danfoss\v17\DocumentLayout.json" />
+    <Content Include="Danfoss\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Danfoss\.vs\Danfoss%281%29\FileContentIndex\1b2b5fbd-718a-4bd9-b13f-ecb7579f257b.vsidx" />
+    <None Include="Danfoss\.vs\Danfoss\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="Danfoss\.vs\Danfoss\FileContentIndex\1b3414b5-c326-42ba-8099-64dbd2cc21dc.vsidx" />
+    <None Include="Danfoss\.vs\Danfoss\FileContentIndex\364f81d9-4009-4923-b1f8-b9ff11489a45.vsidx" />
+    <None Include="Danfoss\.vs\Danfoss\FileContentIndex\c48643da-e3b1-4fdd-b460-99122a1409bd.vsidx" />
+    <None Include="Danfoss\.vs\Danfoss\FileContentIndex\e99b6c80-c34b-4668-a165-ef1d1b0ac5f9.vsidx" />
+    <None Include="Danfoss\.vs\Danfoss\FileContentIndex\ff947534-6d61-4e62-8589-f64f6d3ec5b0.vsidx" />
+    <None Include="Danfoss\.vs\Danfoss\v17\.futdcache.v2" />
+    <None Include="Danfoss\.vs\ProjectEvaluation\danfoss.metadata.v7.bin" />
+    <None Include="Danfoss\.vs\ProjectEvaluation\danfoss.projects.v7.bin" />
+    <None Include="Danfoss\.vs\slnx.sqlite" />
+    <None Include="Danfoss\Danfoss.csproj" />
+    <None Include="Danfoss\Danfoss.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CsvHelper" Version="31.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Danfoss\bin\Debug\net8.0\cs\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\de\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\es\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\fr\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\it\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\ja\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\ko\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\pl\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\pt-BR\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\ru\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\tr\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\zh-Hans\" />
+    <Folder Include="Danfoss\bin\Debug\net8.0\zh-Hant\" />
+    <Folder Include="Danfoss\bin\Release\net8.0\" />
+    <Folder Include="Danfoss\Models\" />
+    <Folder Include="Danfoss\obj\Release\net8.0\refint\" />
+    <Folder Include="Danfoss\obj\Release\net8.0\ref\" />
   </ItemGroup>
 
 </Project>
