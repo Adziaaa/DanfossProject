@@ -313,7 +313,7 @@
 				<Grid>
 					<ScrollViewer>
 						<StackPanel>
-					<TextBlock Foreground="DarkBlue" FontSize="20" >Case</TextBlock>
+					<TextBlock Margin="20" Foreground="DarkBlue" FontSize="20" >Case</TextBlock>
 					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
 						HeatItOn is the utility in the city of Heatingtonwhich has to secure the heat delivery to approx.
 						1600buildingsthrough a single district heating network. They produce heat with a number of traditional
