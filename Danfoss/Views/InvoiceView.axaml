@@ -61,7 +61,7 @@
 							<ScrollViewer>
 								<Grid>
 									<ScottPlot:AvaPlot Name="WinterElectricityPrice" />
-									<TextBox FontSize="8">Electricity Price - DKK / Mwh(el), Winter: 1-8th February,2-9th February,3-10th February...</TextBox>
+									<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Electricity Price - DKK / Mwh(el), Winter: 1-8th February,2-9th February,3-10th February...</TextBlock>
 								</Grid>
 							</ScrollViewer>
 							
@@ -69,19 +69,19 @@
 						
 						<TabItem FontSize="15" Background="LightGreen" Header="Winter Heat Demand ">
 							<Grid><ScottPlot:AvaPlot Name="WinterHeat" />
-								<TextBox FontSize="8">Heat Demand - MWh , Winter: 1-8th February,2-9th February,3-10th February...,</TextBox>
+								<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Heat Demand - MWh , Winter: 1-8th February,2-9th February,3-10th February...,</TextBlock>
 							</Grid>
 						</TabItem>
 						
 						<TabItem FontSize="15" Background="LightGreen" Header="Summer ElectrityPrice">
 							<Grid><ScottPlot:AvaPlot Name="SummerElectrityPrice" />
-								<TextBox FontSize="8">Electricity Price - DKK / Mwh(el), Summer: 1-7th June,2-8th June,3-9th June...</TextBox>
+								<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Electricity Price - DKK / Mwh(el), Summer: 1-7th June,2-8th June,3-9th June...</TextBlock>
 							</Grid>
 						</TabItem>
 						
 						<TabItem FontSize="15" Background="LightGreen" Header="Summer Heat Demand">
 							<Grid><ScottPlot:AvaPlot Name="summerHeatDemand" />
-								<TextBox FontSize="8">Heat Demand - MWh, Summer: 1-7th June,2-8th June,3-9th June...</TextBox>
+								<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Heat Demand - MWh, Summer: 1-7th June,2-8th June,3-9th June...</TextBlock>
 							</Grid>
 
 						</TabItem>
