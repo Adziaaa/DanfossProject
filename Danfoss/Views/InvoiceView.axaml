@@ -53,38 +53,28 @@
 					</TextBlock>
 				</Grid>
 			</TabItem>
-			<TabItem Background="Red" Name="HPO" Header="Heat Production Optimization " >
+			<TabItem Background="Red" Name="HPO" Header="Source Data Manager" >
 				<Grid>
 					<TabControl>
 						
-						<TabItem FontSize="15" Background="LightGreen" Header="Winter Electricity Price">
+						<TabItem FontSize="15" Background="LightGreen" Header="Electricity Prices">
 							<ScrollViewer>
 								<Grid>
-									<ScottPlot:AvaPlot Name="WinterElectricityPrice" />
+									<ScottPlot:AvaPlot Name="ElectricityPrice" />
 									<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Electricity Price - DKK / Mwh(el), Winter: 1-8th February,2-9th February,3-10th February...</TextBlock>
 								</Grid>
 							</ScrollViewer>
 							
-						</TabItem >
-						
-						<TabItem FontSize="15" Background="LightGreen" Header="Winter Heat Demand ">
-							<Grid><ScottPlot:AvaPlot Name="WinterHeat" />
-								<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Heat Demand - MWh , Winter: 1-8th February,2-9th February,3-10th February...,</TextBlock>
-							</Grid>
-						</TabItem>
-						
-						<TabItem FontSize="15" Background="LightGreen" Header="Summer ElectrityPrice">
-							<Grid><ScottPlot:AvaPlot Name="SummerElectrityPrice" />
+						</TabItem >				
+												
+						<TabItem FontSize="15" Background="LightGreen" Header="Heat Demands">
+							<Grid>
+								<ScottPlot:AvaPlot Name="HeatDemand" />
 								<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Electricity Price - DKK / Mwh(el), Summer: 1-7th June,2-8th June,3-9th June...</TextBlock>
 							</Grid>
 						</TabItem>
 						
-						<TabItem FontSize="15" Background="LightGreen" Header="Summer Heat Demand">
-							<Grid><ScottPlot:AvaPlot Name="summerHeatDemand" />
-								<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Heat Demand - MWh, Summer: 1-7th June,2-8th June,3-9th June...</TextBlock>
-							</Grid>
-
-						</TabItem>
+						
 						
 				</TabControl>
 				</Grid>
@@ -98,7 +88,12 @@
 			</lvc:CartesianChart>-->	
 							
 			</TabItem>
-			<TabItem Background="Red" Name="PU" Header="Production units">
+			<TabItem Background="Red" Name="OPT" Header="Optimizer">
+				<Grid>
+					
+				</Grid>
+			</TabItem>
+				<TabItem Background="Red" Name="PU" Header="Asset Manager">
 				<Grid>
 					<TabControl>
 						<TabItem Header="Gas Boiler" Background="LightGreen">
@@ -351,7 +346,7 @@
 			
 
 			
-			<TabItem Margin="-1,308,-1,-327" Header="Log Out" Background="Red" Name="Log_Out">
+			<TabItem Margin="-1,108,-1,-150" Header="Log Out" Background="Red" Name="Log_Out">
 				<Grid>
 
 					<!--<Button Margin="212,222,213,189" Background="#FFED3232" Command="{Binding LogOutCommand}" ></Button>

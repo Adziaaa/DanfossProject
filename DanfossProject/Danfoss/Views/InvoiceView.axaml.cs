@@ -23,20 +23,25 @@ public partial class InvoiceView : UserControl
     {
         InitializeComponent();
         
-        //winter 1 Electricity price per day 00-01, winter
+        //winter 1 Electricity price per day 00-01, winter demand 
         double[] dataA = { 1, 2, 3, 4, 5, 6, 7 };
         double[] dataB = {1190.94, 615.31, 580.99, 557.82, 965.70, 773.11, 1010.17 };
-        
+        double[] dataY = { 6.62, 7.58, 6.8, 6.35, 6.05, 6.08, 6.15 };
+
+
         AvaPlot winterElectricityPrice = this.Find<AvaPlot>("WinterElectricityPrice");
+        
         winterElectricityPrice.Plot.Add.Scatter(dataA, dataB);
+        winterElectricityPrice.Plot.Add.Scatter(dataA, dataY);
+
+
         winterElectricityPrice.Refresh();
 
         // Heat Demand per day in Winter winter 
-        double[] dataY = { 6.62, 7.58, 6.8, 6.35, 6.05, 6.08, 6.15 };
-        AvaPlot winterHeat = this.Find<AvaPlot>("WinterHeat");
 
-        winterHeat.Plot.Add.Scatter(dataA, dataY);
-        winterHeat.Refresh();
+//        winterHeat.Plot.Add.Scatter(dataA, dataY);
+  //      winterHeat.Refresh();
+
         //Summer electricity Price per day 
         double[] dataX = { 752.03, 820.80, 843.68, 933.08, 738.53, 786.90, 757.50 };
         AvaPlot summerElectrityPrice = this.Find<AvaPlot>("SummerElectrityPrice");

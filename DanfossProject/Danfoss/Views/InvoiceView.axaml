@@ -56,6 +56,8 @@
 			<TabItem Background="Red" Name="HPO" Header="Heat Production Optimization " >
 				<Grid>
 					<TabControl>
+						
+						
 						<TabItem FontSize="17" Header="Legend">
 							<Grid>
 								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  FontSize="27" Margin="0,0,0,0" >Heat Demand - MWh </TextBlock>
@@ -69,11 +71,12 @@
 							<Grid>
 								<ScottPlot:AvaPlot Name="WinterElectricityPrice" />
 							</Grid>
-						</TabItem >
-						
+							<!--
 						<TabItem FontSize="17" Background="LightGreen" Header="Winter Heat Demand ">
 							<Grid><ScottPlot:AvaPlot Name="WinterHeat" /></Grid>
-						</TabItem>
+						</TabItem>-->
+						</TabItem >
+						
 						
 						<TabItem FontSize="17" Background="LightGreen" Header="Summer ElectrityPrice">
 							<Grid><ScottPlot:AvaPlot Name="SummerElectrityPrice" /></Grid>
