@@ -53,24 +53,33 @@
 					</TextBlock>
 				</Grid>
 			</TabItem>
+			
 			<TabItem Background="Red" Name="HPO" Header="Source Data Manager" >
 				<Grid>
 					<TabControl>
-						
 						<TabItem FontSize="15" Background="LightGreen" Header="Electricity Prices">
-							<ScrollViewer>
 								<Grid>
 									<ScottPlot:AvaPlot Name="ElectricityPrice" />
-									<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Electricity Price - DKK / Mwh(el), Winter: 1-8th February,2-9th February,3-10th February...</TextBlock>
+									<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Electricity Price - DKK / Mwh(el)</TextBlock>
+									<TextBlock Margin="30" Foreground="Blue" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Winter - Blue</TextBlock>
+									<TextBlock Margin="40" Foreground="Orange" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Summer - Orange</TextBlock>
+
+									
+									<TextBlock Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"  FontWeight="Bold" FontSize="13">
+										08.02.2024  09.02.2024  10.02.2024  11.02.2024  12.02.2024  13.02.2024  	14.02.2024
+									
+									</TextBlock>
 								</Grid>
-							</ScrollViewer>
-							
 						</TabItem >				
 												
 						<TabItem FontSize="15" Background="LightGreen" Header="Heat Demands">
 							<Grid>
 								<ScottPlot:AvaPlot Name="HeatDemand" />
-								<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Electricity Price - DKK / Mwh(el), Summer: 1-7th June,2-8th June,3-9th June...</TextBlock>
+								<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Heat Demand - MWh</TextBlock>
+								<TextBlock Margin="30" Foreground="Blue" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Winter - Blue</TextBlock>
+								<TextBlock Margin="40" Foreground="Orange" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Summer - Orange</TextBlock>
+
+								<TextBlock Margin="30" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" FontWeight="Bold" FontSize="13">08.07.2024 09.07.2024 10.07.2024 11.07.2024 12.07.2024 13.07.2024 14.07.2024</TextBlock>
 							</Grid>
 						</TabItem>
 						

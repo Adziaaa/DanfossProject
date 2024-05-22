@@ -24,7 +24,7 @@ public partial class InvoiceView : UserControl
         InitializeComponent();
 
         //winter 1 Electricity price per day 00-01, winter demand 
-        double[] dataA = { 1, 2, 3, 4, 5, 6, 7 };// days
+        double[] dataA = { 1, 2,3,4,5,6,7 };// days
         //winter
         double[] dataB = { 1190.94, 615.31, 580.99, 557.82, 965.70, 773.11, 1010.17 };//winter electricity price
         double[] dataY = { 6.62, 7.58, 6.8, 6.35, 6.05, 6.08, 6.15 };//heat demand per day 
