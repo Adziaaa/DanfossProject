@@ -63,8 +63,8 @@
 									<TextBlock Margin="20" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Electricity Price - DKK / Mwh(el)</TextBlock>
 									<TextBlock Margin="30" Foreground="Blue" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Winter - Blue</TextBlock>
 									<TextBlock Margin="40" Foreground="Orange" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Summer - Orange</TextBlock>
+									  
 
-									
 									<TextBlock Margin="40,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
 										08.02.2024  </TextBlock>
 									<TextBlock Margin="160,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
