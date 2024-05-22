@@ -65,10 +65,27 @@
 									<TextBlock Margin="40" Foreground="Orange" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Summer - Orange</TextBlock>
 
 									
-									<TextBlock Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"  FontWeight="Bold" FontSize="13">
-										08.02.2024  09.02.2024  10.02.2024  11.02.2024  12.02.2024  13.02.2024  	14.02.2024
-									
+									<TextBlock Margin="40,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
+										08.02.2024  </TextBlock>
+									<TextBlock Margin="160,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
+										09.02.2024
 									</TextBlock>
+									<TextBlock Margin="280,-30,0,0" VerticalAlignment="Bottom"  FontWeight="Bold" FontSize="13">
+										10.02.2024
+									</TextBlock>
+									<TextBlock Margin="390,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
+										11.02.2024
+									</TextBlock>
+									<TextBlock Margin="500,-30,0,0" VerticalAlignment="Bottom"  FontWeight="Bold" FontSize="13">
+										12.02.2024
+									</TextBlock>
+									<TextBlock Margin="610,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
+										13.02.2024
+									</TextBlock>
+									<TextBlock Margin="720,-30,0,0" VerticalAlignment="Bottom"  FontWeight="Bold" FontSize="13">
+										14.02.2024
+									</TextBlock>
+									
 								</Grid>
 						</TabItem >				
 												
@@ -79,8 +96,28 @@
 								<TextBlock Margin="30" Foreground="Blue" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Winter - Blue</TextBlock>
 								<TextBlock Margin="40" Foreground="Orange" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13">Summer - Orange</TextBlock>
 
-								<TextBlock Margin="30" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" FontWeight="Bold" FontSize="13">08.07.2024 09.07.2024 10.07.2024 11.07.2024 12.07.2024 13.07.2024 14.07.2024</TextBlock>
-							</Grid>
+
+								<TextBlock Margin="40,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
+									08.07.2024
+								</TextBlock>
+								<TextBlock Margin="160,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
+									09.07.2024
+								</TextBlock>
+								<TextBlock Margin="280,-30,0,0" VerticalAlignment="Bottom"  FontWeight="Bold" FontSize="13">
+									10.07.2024
+								</TextBlock>
+								<TextBlock Margin="390,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
+									11.07.2024
+								</TextBlock>
+								<TextBlock Margin="500,-30,0,0" VerticalAlignment="Bottom"  FontWeight="Bold" FontSize="13">
+									12.07.2024
+								</TextBlock>
+								<TextBlock Margin="610,-30,0,0" VerticalAlignment="Bottom"   FontWeight="Bold" FontSize="13">
+									13.07.2024
+								</TextBlock>
+								<TextBlock Margin="720,-30,0,0" VerticalAlignment="Bottom"  FontWeight="Bold" FontSize="13">
+									14.07.2024
+								</TextBlock>							</Grid>
 						</TabItem>
 						
 						
