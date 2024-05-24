@@ -9,8 +9,8 @@ namespace DanfossProject
     {
         static void Main(string[] args)
         {
-            FunctionalityOfAM assetManager = new FunctionalityOfAM();
-            assetManager.AddAssets();
+            FunctionalityOfAM AM = new FunctionalityOfAM();
+            AM.AddAssets();
 
             CsvManager SdmObject = new CsvManager();
 
@@ -27,9 +27,22 @@ namespace DanfossProject
 
             List<Model> models = new List<Model>();
             
-            List<SdmRecord> sdmRecords = new List<SdmRecord>();
 
-            List<ResultData> result = optfromscratchObject.OptimizeData(models, sdmRecords);
+
+            List<ResultData> result_winter = optfromscratchObject.OptimizeData(AM.AssetManager, WinterSourceDataManager); //this is used by RDM to save it as csv file and can be used by visualizer to make graph out of it 
+
+            List<ResultData> result_summer = optfromscratchObject.OptimizeData(AM.AssetManager, SummerSourceDataManager); //this is used by RDM to save it as csv file and can be used by visualizer to make graph out of it 
+
+            //for (int i = 0; i < result_winter.Count; i++)
+            //{
+            //    result_winter[i].DisplayResult();
+            //};
+
+            //for (int i = 0; i < result_summer.Count; i++)
+            //{
+            //    result_summer[i].DisplayResult();
+            //};
+
 
             Console.WriteLine("1.Start asset\n2.Start asset\n3.Exit");
 
@@ -41,15 +54,15 @@ namespace DanfossProject
                 switch (option)
                 {
                     case "1":
-                        foreach (Model asset in assetManager.AssetManager)
+                        foreach (Model asset in AM.AssetManager)
                         {
-                            assetManager.StopAsset(asset);
+                            AM.StopAsset(asset);
                         }
                         break;
                     case "2":
-                        foreach (Model asset in assetManager.AssetManager)
+                        foreach (Model asset in AM.AssetManager)
                         {
-                            assetManager.StartAsset(asset);
+                            AM.StartAsset(asset);
                         }
                         break;
                     case "3":

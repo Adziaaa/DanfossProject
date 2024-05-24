@@ -91,11 +91,12 @@ namespace DanfossProject
         }
 
         public List<ResultData> OptimizeData(List<Model> models, List<SdmRecord> sdmRecords)
-        {;
+        {
             List<ResultData> resultData = new List<ResultData>();
             foreach (SdmRecord sdmRecord in sdmRecords)
             {
                 List<ResultData> intervalResults = CalculateResultDataForInterval(models, sdmRecord);
+                //Console.WriteLine(intervalResults.Count);
                 resultData.AddRange(intervalResults);
             }
             return resultData;

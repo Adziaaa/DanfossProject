@@ -18,5 +18,11 @@ namespace DanfossProject
         public double ProducedCO2 { get; set; }
         public string ModelName { get; set; }
 
+
+        public void DisplayResult()
+        {
+            Console.WriteLine("OperationPercentage:" + OperationPercentage + "Name:" + Name + "ModelName:" + ModelName);
+        }
+
     }
 }
