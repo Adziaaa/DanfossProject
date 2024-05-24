@@ -38,6 +38,8 @@ namespace DanfossProject
             //    result_winter[i].DisplayResult();
             //};
 
+            //Console.WriteLine("\nSummer\n");
+
             //for (int i = 0; i < result_summer.Count; i++)
             //{
             //    result_summer[i].DisplayResult();
