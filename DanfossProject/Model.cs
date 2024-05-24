@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DanfossProject
 {
-    internal class Model : ITemplate
+    public class Model : ITemplate
     {
         public string Name { get; set; }
         public double MaxHeat { get; set; }

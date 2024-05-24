@@ -5,100 +5,100 @@ using System.IO;
 
 namespace DanfossProject
 {
-    public class Optimizer
+    public class optfromscratch
     {
-        public double CalculateNetProductionCosts(DanfossProject Model, SdmRecord SdmRecord)
+        public double CalculateNetProductionCosts(Model model, SdmRecord sdmRecord)
         {
-            double netProductionCosts = Model.ProductionCosts;
-            double electricityPrice = SdmRecord.ElectricityPrice;
-            netProductionCosts -= Model.MaxElectricity * electricityPrice;
+            double netProductionCosts = model.ProductionCosts;
+            double electricityPrice = sdmRecord.ElectricityPrice;
+            netProductionCosts -= model.MaxElectricity * electricityPrice;
             return netProductionCosts;
         }
 
-        public DanfossProject GetCheapestUnit(List<Model> model, SdmRecord SdmRecord)
+        public Model GetCheapestUnit(List<Model> models, SdmRecord sdmRecord)
         {
-            Model CheapestModel = new();
+            Model cheapestModel = null;
             double lowestCost = double.MaxValue;
 
-            foreach (Model model in model)
+            foreach (Model model in models)
             {
-                double netProductionCosts = CalculateNetProductionCosts(model, SdmRecord);
+                double netProductionCosts = CalculateNetProductionCosts(model, sdmRecord);
                 if (netProductionCosts < lowestCost)
                 {
                     lowestCost = netProductionCosts;
-                    CheapestModel = model;
+                    cheapestModel = model;
                 }
             }
 
-            return CheapestModel;
-        }
-        //takes original model values and uses them proportionally with the current demand
-        public ResultData(Model model, double Percentage)
-        {
-            sdmRecord.OperationPercentage = Percentage;
-            sdmRecord.MaxHeat *= Percentage;
-            sdmRecord.MaxElectricity *= Percentage;
-            sdmRecord.CO2Consumpition *= Percentage;
-            sdmRecord.PrimaryEnergyConsumption *= Percentage;
-            sdmRecord.ProductionCosts *= Percentage;
-
-            return originalData;
+            return cheapestModel;
         }
 
-        private List<Results> CalculateResultDataForInterval(List<Model> model, SdmRecord sdmRecord)
+        public ResultData CreateResultData(Model model, double percentage)
         {
-            List<Results> resultDatas = [];
+            return new ResultData
+            {
+                OperationPercentage = percentage,
+                MaxHeat = model.MaxHeat * percentage,
+                MaxElectricity = model.MaxElectricity * percentage,
+                CO2Consumpition = model.CO2Consumpition * percentage,
+                ProductionCosts = model.ProductionCosts * percentage
+            };
+        }
 
-            List<Model> unusedModels = model.ToList();
+        private List<ResultData> CalculateResultDataForInterval(List<Model> models, SdmRecord sdmRecord)
+        {
+            List<ResultData> resultDataList = new();
 
-            double currentHeatDemand = SdmRecord.HeatDemand;
+            List<Model> unusedModels = models.ToList();
+
+            double currentHeatDemand = sdmRecord.HeatDemand;
 
             while (currentHeatDemand > 0.0)
             {
-                // conditional for demand not fullfilled after using all resources available
+                // Conditional for demand not fulfilled after using all resources available
                 if (unusedModels.Count == 0 && currentHeatDemand > 0)
                 {
-                    Console.WriteLine("Unable to meet heat demand for time interval " + sourceDataPoint.TimeFrom + " to " + sourceDataPoint.TimeTo);
-                    return resultData;
+                    Console.WriteLine("Unable to meet heat demand for time interval " + sdmRecord.TimeFrom + " to " + sdmRecord.TimeTo);
+                    return resultDataList;
                 }
 
                 Model economicModel = GetCheapestUnit(unusedModels, sdmRecord);
                 unusedModels.Remove(economicModel);
-                //create new sheet of results regarding the model that is going to be used and specs like time
-                Results resultData = new()
+
+                double percentage = 1;
+                if (economicModel.MaxHeat > currentHeatDemand)
+                {
+                    percentage = currentHeatDemand / economicModel.MaxHeat;
+                }
+
+                ResultData resultData = new()
                 {
                     TimeFrom = sdmRecord.TimeFrom,
                     TimeTo = sdmRecord.TimeTo,
-                    ProductionUnitName = economicModel.Name,
-                    ProducedHeat = economicModel.MaxHeat,
-                    NetElectricity = economicModel.MaxElectricity,
-                    ProductionCosts = economicModel.ProductionCosts,
-                    ProducedCO2 = economicModel.CO2Consumpition,
-                    PrimaryEnergyConsumption = economicModel.GasConsumption,
-                    Percentage = 1
+                    ModelName = economicModel.Name,
+                    ProducedHeat = economicModel.MaxHeat * percentage,
+                    NetElectricity = economicModel.MaxElectricity * percentage,
+                    ProductionCosts = economicModel.ProductionCosts * percentage,
+                    ProducedCO2 = economicModel.CO2Consumpition * percentage,
+                    Percentage = percentage
                 };
-                //conditional that allows the cheapest model to run only for the actual demand if it's lower than what the model provides
-                if (economicModel.MaxHeat > currentHeatDemand)
-                {
-                    Percentage = currentHeatDemand / economicModel.MaxHeat;
-                    resultData = resultData * Percentage;
-                }
-                currentHeatDemand = currentHeatDemand - economicModel.MaxHeat * Percentage;
 
-                resultDatas.Add(resultData);
+                currentHeatDemand -= economicModel.MaxHeat * percentage;
+
+                resultDataList.Add(resultData);
             }
-            return resultDatas;
+            return resultDataList;
         }
-        public List<Results> OptimizeData(List<Model> model, List<SdmRecord> sdmRecord)
-        {
-            List<Result> resultData = [];
-            foreach (SdmRecord sdmRecord in SdmRecord)
+
+        public List<ResultData> OptimizeData(List<Model> models, List<SdmRecord> sdmRecords)
+        {;
+            List<ResultData> resultData = new List<ResultData>();
+            foreach (SdmRecord sdmRecord in sdmRecords)
             {
-                List<Results> intervalResults = CalculateResultDataForInterval(model, sdmRecord);
+                List<ResultData> intervalResults = CalculateResultDataForInterval(models, sdmRecord);
                 resultData.AddRange(intervalResults);
             }
             return resultData;
         }
     }
 }
-
