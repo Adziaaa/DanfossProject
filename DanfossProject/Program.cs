@@ -23,8 +23,13 @@ namespace DanfossProject
             //SdmObject.DisplaySdm(SummerSourceDataManager);
             //Console.Read();
 
-            var opti = new EnergyOptimizer(SdmObject, assetManager);
-            opti.OptimizeEnergy(WinterSourceDataManager, SummerSourceDataManager);
+            optfromscratch optfromscratchObject = new optfromscratch();
+
+            List<Model> models = new List<Model>();
+            
+            List<SdmRecord> sdmRecords = new List<SdmRecord>();
+
+            List<ResultData> result = optfromscratchObject.OptimizeData(models, sdmRecords);
 
             Console.WriteLine("1.Start asset\n2.Start asset\n3.Exit");
 
