@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Reflection;
 using System.Transactions;
 
@@ -8,8 +9,8 @@ namespace DanfossProject
     {
         static void Main(string[] args)
         {
-            FunctionalityOfAM assetManager = new FunctionalityOfAM();
-            assetManager.AddAssets();
+            FunctionalityOfAM AM = new FunctionalityOfAM();
+            AM.AddAssets();
 
             CsvManager SdmObject = new CsvManager();
 
@@ -17,11 +18,35 @@ namespace DanfossProject
             List<SdmRecord> WinterSourceDataManager = SdmObject.ReadCsv("Winter_SDM.csv");
             List<SdmRecord> SummerSourceDataManager = SdmObject.ReadCsv("Summer_SDM.csv");
             //Console.WriteLine("\nWinter:");
-            SdmObject.DisplaySdm(WinterSourceDataManager);
+            ///SdmObject.DisplaySdm(WinterSourceDataManager);
             //Console.WriteLine("\nSummer: ");
-            SdmObject.DisplaySdm(SummerSourceDataManager);
+            //SdmObject.DisplaySdm(SummerSourceDataManager);
             //Console.Read();
 
+            optfromscratch optfromscratchObject = new optfromscratch();
+
+            List<Model> models = new List<Model>();
+            
+
+
+            List<ResultData> result_winter = optfromscratchObject.OptimizeData(AM.AssetManager, WinterSourceDataManager); //this is used by RDM to save it as csv file and can be used by visualizer to make graph out of it 
+
+            List<ResultData> result_summer = optfromscratchObject.OptimizeData(AM.AssetManager, SummerSourceDataManager); //this is used by RDM to save it as csv file and can be used by visualizer to make graph out of it 
+
+            //for (int i = 0; i < result_winter.Count; i++)
+            //{
+            //    result_winter[i].DisplayResult();
+            //};
+
+            //Console.WriteLine("\nSummer\n");
+
+            //for (int i = 0; i < result_summer.Count; i++)
+            //{
+            //    result_summer[i].DisplayResult();
+            //};
+
+
+            Console.WriteLine("1.Start asset\n2.Start asset\n3.Exit");
 
             while (true)
             {
@@ -31,21 +56,18 @@ namespace DanfossProject
                 switch (option)
                 {
                     case "1":
-                        foreach (Model asset in assetManager.AssetManager)
+                        foreach (Model asset in AM.AssetManager)
                         {
-                            assetManager.StopAsset(asset);
+                            AM.StopAsset(asset);
                         }
                         break;
                     case "2":
-                        foreach (Model asset in assetManager.AssetManager)
+                        foreach (Model asset in AM.AssetManager)
                         {
-                            assetManager.StartAsset(asset);
+                            AM.StartAsset(asset);
                         }
                         break;
                     case "3":
-
-                        break;
-                    case "4":
                         // Exit application
                         Console.WriteLine("Exiting application...");
                         return;

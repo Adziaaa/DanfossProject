@@ -7,7 +7,7 @@ using System.Transactions;
 
 namespace DanfossProject
 {
-    internal class FunctionalityOfAM : ITemplate
+    internal class FunctionalityOfAM
     {
         // list of our models
         public List<Model> AssetManager = new List<Model>();
@@ -36,15 +36,8 @@ namespace DanfossProject
 
             }
         }
-        public void IsOperatingg()
-        {
-            throw new NotImplementedException();
 
-        }
-
-
-
-        public void ProvideAllConfigurationData(Model model)
+        public void DiplAllDataModel()
         {
             foreach (var asset in AssetManager)
             {
@@ -52,12 +45,5 @@ namespace DanfossProject
                     $"CO2 Consumption: {asset.CO2Consumpition} \n Gas Consumption: {asset.GasConsumption} \n Is Operating?: {asset.IsOperating}");
             }
         }
-
-        public void ProvideParameners()
-        {
-            throw new NotImplementedException();
-        }
-
-
     }
 }

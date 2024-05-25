@@ -8,10 +8,9 @@ namespace DanfossProject
 {
     internal interface ITemplate
     {
-        void ProvideAllConfigurationData(Model model);
-        void ProvideParameners();
+        void DispConfiDat();
         
-        void IsOperatingg();
+        bool IsOperatingg();
 
     }
     internal interface interface2
