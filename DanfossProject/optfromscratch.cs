@@ -37,7 +37,7 @@ namespace DanfossProject
         {
             return new ResultData
             {
-                OperationPercentage = percentage,
+                Percentage = percentage,
                 MaxHeat = model.MaxHeat * percentage,
                 MaxElectricity = model.MaxElectricity * percentage,
                 CO2Consumpition = model.CO2Consumpition * percentage,

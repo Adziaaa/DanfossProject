@@ -33,17 +33,17 @@ namespace DanfossProject
 
             List<ResultData> result_summer = optfromscratchObject.OptimizeData(AM.AssetManager, SummerSourceDataManager); //this is used by RDM to save it as csv file and can be used by visualizer to make graph out of it 
 
-            //for (int i = 0; i < result_winter.Count; i++)
-            //{
-            //    result_winter[i].DisplayResult();
-            //};
+            for (int i = 0; i < result_winter.Count; i++)
+            {
+                result_winter[i].DisplayResult();
+            };
 
-            //Console.WriteLine("\nSummer\n");
+            Console.WriteLine("\nSummer\n");
 
-            //for (int i = 0; i < result_summer.Count; i++)
-            //{
-            //    result_summer[i].DisplayResult();
-            //};
+            for (int i = 0; i < result_summer.Count; i++)
+            {
+                result_summer[i].DisplayResult();
+            };
 
 
             Console.WriteLine("1.Start asset\n2.Start asset\n3.Exit");
