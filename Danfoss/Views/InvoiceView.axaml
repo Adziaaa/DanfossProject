@@ -218,13 +218,37 @@
 				XAxes="{Binding XAxes}">
 			
 			</lvc:CartesianChart>-->	
-							
+						
+				
+				
+				
+				
+				
 			</TabItem>
 			<TabItem Background="Red" Name="OPT" Header="Optimizer">
 				<Grid>
+				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 					
 				</Grid>
 			</TabItem>
+			
+			
+			
+			
 				<TabItem Background="Red" Name="PU" Header="Asset Manager">
 				<Grid>
 					<TabControl>
