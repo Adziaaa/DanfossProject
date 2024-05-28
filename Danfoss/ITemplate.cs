@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DanfossProject
+namespace Danfoss
 {
     internal interface ITemplate
     {
@@ -12,9 +12,5 @@ namespace DanfossProject
         
         bool IsOperatingg();
 
-    }
-    internal interface interface2
-    {
-        //json???
     }
 }

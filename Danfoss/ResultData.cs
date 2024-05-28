@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace DanfossProject
+namespace Danfoss
 {
     public class ResultData
     {
@@ -18,12 +18,12 @@ namespace DanfossProject
         public string ModelName { get; set; }
 
 
-        public void DisplayResult()
-        {
+        //public void DisplayResult()
+        //{
 
-            Console.WriteLine("Model Name:" + ModelName + "Time from:" + TimeFrom + "Time to" + TimeTo +  "Produced heat" + ProducedHeat + "Net Electricity" + NetElectricity + "Production Costs" + ProductionCosts + "Produced CO2" + ProducedCO2);
+        //    Console.WriteLine("Model Name:" + ModelName + "Time from:" + TimeFrom + "Time to" + TimeTo +  "Produced heat" + ProducedHeat + "Net Electricity" + NetElectricity + "Production Costs" + ProductionCosts + "Produced CO2" + ProducedCO2);
 
-        }
+        //}
 
     }
 }

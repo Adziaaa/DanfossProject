@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
-namespace DanfossProject
+
+namespace Danfoss
 {
     public class CO2ResultData
     {
@@ -15,9 +16,9 @@ namespace DanfossProject
         public double MaxElectricity { get; set; }
         public double CO2Consumpition { get; set; }
 
-        public void DisplayResult()
-        {
-            Console.WriteLine( "Model Name:" + ModelName + "Time from:" + TimeFrom + "Time to" + TimeTo + "Produced heat" + ProducedHeat + "Net Electricity" + NetElectricity + "Production Costs" + ProductionCosts + "Produced CO2" + ProducedCO2);
-        }
+        //public void DisplayResult()
+        //{
+        //    Console.WriteLine( "Model Name:" + ModelName + "Time from:" + TimeFrom + "Time to" + TimeTo + "Produced heat" + ProducedHeat + "Net Electricity" + NetElectricity + "Production Costs" + ProductionCosts + "Produced CO2" + ProducedCO2);
+        //}
     }
 }
