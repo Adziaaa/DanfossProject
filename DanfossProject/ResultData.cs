@@ -4,6 +4,7 @@ namespace DanfossProject
 {
     public class ResultData
     {
+
         public double MaxHeat { get; set; }
         public double MaxElectricity { get; set; }
         public double CO2Consumpition { get; set; }
@@ -19,7 +20,9 @@ namespace DanfossProject
 
         public void DisplayResult()
         {
+
             Console.WriteLine("Model Name:" + ModelName + "Time from:" + TimeFrom + "Time to" + TimeTo +  "Produced heat" + ProducedHeat + "Net Electricity" + NetElectricity + "Production Costs" + ProductionCosts + "Produced CO2" + ProducedCO2);
+
         }
 
     }

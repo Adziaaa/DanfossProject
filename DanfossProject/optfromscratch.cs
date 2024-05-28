@@ -33,6 +33,7 @@ namespace DanfossProject
             return cheapestModel;
         }
 
+
         public Model GetLeastCO2Unit(List<Model> models)
         {
             Model leastCO2Model = null;
@@ -50,17 +51,22 @@ namespace DanfossProject
             return leastCO2Model;
         }
 
+
         public ResultData CreateResultData(Model model, double percentage)
         {
             return new ResultData
             {
+
                 Percentage = percentage,
+
+
                 MaxHeat = model.MaxHeat * percentage,
                 MaxElectricity = model.MaxElectricity * percentage,
                 CO2Consumpition = model.CO2Consumpition * percentage,
                 ProductionCosts = model.ProductionCosts * percentage
             };
         }
+
 
         public CO2ResultData CreateCO2ResultData(Model model, double percentage)
         {
@@ -73,6 +79,7 @@ namespace DanfossProject
                 ProductionCosts = model.ProductionCosts * percentage
             };
         }
+
         private List<ResultData> CalculateResultDataForInterval(List<Model> models, SdmRecord sdmRecord)
         {
             List<ResultData> resultDataList = new();
@@ -117,6 +124,7 @@ namespace DanfossProject
             }
             return resultDataList;
         }
+
 
         private List<CO2ResultData> CalculateCO2ResultDataForInterval(List<Model> models, SdmRecord sdmRecord)
         {
@@ -165,17 +173,20 @@ namespace DanfossProject
         {
             List<ResultData> resultData = new List<ResultData>();
             List<CO2ResultData> co2ResultData=new List<CO2ResultData>();
+
             foreach (SdmRecord sdmRecord in sdmRecords)
             {
                 List<ResultData> intervalResults = CalculateResultDataForInterval(models, sdmRecord);
                 //Console.WriteLine(intervalResults.Count);
                 resultData.AddRange(intervalResults);
 
+
                 List<CO2ResultData> intervalCO2Results = CalculateCO2ResultDataForInterval(models, sdmRecord);
                 //Console.WriteLine(intervalResults.Count);
                 co2ResultData.AddRange(intervalCO2Results);
             }
             return (resultData, co2ResultData);
+
         }
     }
 }

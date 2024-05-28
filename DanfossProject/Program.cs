@@ -29,6 +29,7 @@ namespace DanfossProject
 
 
 
+
             var (result_winter, CO2result_winter) = optfromscratchObject.OptimizeData(AM.AssetManager, WinterSourceDataManager);
             var (result_summer, CO2result_summer) = optfromscratchObject.OptimizeData(AM.AssetManager, SummerSourceDataManager);
 
@@ -55,6 +56,7 @@ namespace DanfossProject
             {
                 result.DisplayResult();
             }
+
 
 
 
