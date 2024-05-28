@@ -26,24 +26,38 @@ namespace DanfossProject
             optfromscratch optfromscratchObject = new optfromscratch();
 
             List<Model> models = new List<Model>();
-            
 
 
-            List<ResultData> result_winter = optfromscratchObject.OptimizeData(AM.AssetManager, WinterSourceDataManager); //this is used by RDM to save it as csv file and can be used by visualizer to make graph out of it 
 
-            List<ResultData> result_summer = optfromscratchObject.OptimizeData(AM.AssetManager, SummerSourceDataManager); //this is used by RDM to save it as csv file and can be used by visualizer to make graph out of it 
 
-            //for (int i = 0; i < result_winter.Count; i++)
-            //{
-            //    result_winter[i].DisplayResult();
-            //};
+            var (result_winter, CO2result_winter) = optfromscratchObject.OptimizeData(AM.AssetManager, WinterSourceDataManager);
+            var (result_summer, CO2result_summer) = optfromscratchObject.OptimizeData(AM.AssetManager, SummerSourceDataManager);
 
-            //Console.WriteLine("\nSummer\n");
+            Console.WriteLine("Winter Results - Cheapest Model:");
+            foreach (var result in result_winter)
+            {
+                result.DisplayResult();
+            }
 
-            //for (int i = 0; i < result_summer.Count; i++)
-            //{
-            //    result_summer[i].DisplayResult();
-            //};
+            Console.WriteLine("\nWinter Results - Least CO2 Model:");
+            foreach (var result in CO2result_winter)
+            {
+                result.DisplayResult();
+            }
+
+            Console.WriteLine("\nSummer Results - Cheapest Model:");
+            foreach (var result in result_summer)
+            {
+                result.DisplayResult();
+            }
+
+            Console.WriteLine("\nSummer Results - Least CO2 Model:");
+            foreach (var result in CO2result_summer)
+            {
+                result.DisplayResult();
+            }
+
+
 
 
             Console.WriteLine("1.Start asset\n2.Start asset\n3.Exit");

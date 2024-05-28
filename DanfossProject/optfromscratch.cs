@@ -33,11 +33,46 @@ namespace DanfossProject
             return cheapestModel;
         }
 
+
+        public Model GetLeastCO2Unit(List<Model> models)
+        {
+            Model leastCO2Model = null;
+            double lowestCO2Consumption = double.MaxValue;
+
+            foreach (Model model in models)
+            {
+                if (model.CO2Consumpition < lowestCO2Consumption)
+                {
+                    lowestCO2Consumption = model.CO2Consumpition;
+                    leastCO2Model = model;
+                }
+            }
+
+            return leastCO2Model;
+        }
+
+
         public ResultData CreateResultData(Model model, double percentage)
         {
             return new ResultData
             {
-                OperationPercentage = percentage,
+
+                Percentage = percentage,
+
+
+                MaxHeat = model.MaxHeat * percentage,
+                MaxElectricity = model.MaxElectricity * percentage,
+                CO2Consumpition = model.CO2Consumpition * percentage,
+                ProductionCosts = model.ProductionCosts * percentage
+            };
+        }
+
+
+        public CO2ResultData CreateCO2ResultData(Model model, double percentage)
+        {
+            return new CO2ResultData
+            {
+                Percentage = percentage,
                 MaxHeat = model.MaxHeat * percentage,
                 MaxElectricity = model.MaxElectricity * percentage,
                 CO2Consumpition = model.CO2Consumpition * percentage,
@@ -90,16 +125,68 @@ namespace DanfossProject
             return resultDataList;
         }
 
-        public List<ResultData> OptimizeData(List<Model> models, List<SdmRecord> sdmRecords)
+
+        private List<CO2ResultData> CalculateCO2ResultDataForInterval(List<Model> models, SdmRecord sdmRecord)
+        {
+            List<CO2ResultData> co2ResultDataList = new();
+            List<Model> unusedModels = models.ToList();
+
+            double currentHeatDemand = sdmRecord.HeatDemand;
+
+            while (currentHeatDemand > 0.0)
+            {
+                if (unusedModels.Count == 0)
+                {
+                    Console.WriteLine($"Unable to meet heat demand for time interval {sdmRecord.TimeFrom} to {sdmRecord.TimeTo}");
+                    break;
+                }
+
+                Model leastCO2Model = GetLeastCO2Unit(unusedModels);
+                unusedModels.Remove(leastCO2Model);
+
+                double percentage = 1;
+                if (leastCO2Model.MaxHeat > currentHeatDemand)
+                {
+                    percentage = currentHeatDemand / leastCO2Model.MaxHeat;
+                }
+
+                CO2ResultData co2ResultData = new()
+                {
+                    TimeFrom = sdmRecord.TimeFrom,
+                    TimeTo = sdmRecord.TimeTo,
+                    ModelName = leastCO2Model.Name,
+                    ProducedHeat = leastCO2Model.MaxHeat * percentage,
+                    NetElectricity = leastCO2Model.MaxElectricity * percentage,
+                    ProductionCosts = leastCO2Model.ProductionCosts * percentage,
+                    ProducedCO2 = leastCO2Model.CO2Consumpition * percentage,
+                    Percentage = percentage
+                };
+
+                currentHeatDemand -= leastCO2Model.MaxHeat * percentage;
+                co2ResultDataList.Add(co2ResultData);
+            }
+
+            return co2ResultDataList;
+        }
+
+        public (List<ResultData>, List<CO2ResultData>) OptimizeData(List<Model> models, List<SdmRecord> sdmRecords)
         {
             List<ResultData> resultData = new List<ResultData>();
+            List<CO2ResultData> co2ResultData=new List<CO2ResultData>();
+
             foreach (SdmRecord sdmRecord in sdmRecords)
             {
                 List<ResultData> intervalResults = CalculateResultDataForInterval(models, sdmRecord);
                 //Console.WriteLine(intervalResults.Count);
                 resultData.AddRange(intervalResults);
+
+
+                List<CO2ResultData> intervalCO2Results = CalculateCO2ResultDataForInterval(models, sdmRecord);
+                //Console.WriteLine(intervalResults.Count);
+                co2ResultData.AddRange(intervalCO2Results);
             }
-            return resultData;
+            return (resultData, co2ResultData);
+
         }
     }
 }
