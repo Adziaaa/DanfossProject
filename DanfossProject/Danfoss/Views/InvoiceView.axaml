@@ -1,0 +1,369 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:Danfoss.ViewModels"
+			 xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+			 xmlns:ScottPlot="clr-namespace:ScottPlot.Avalonia;assembly=ScottPlot.Avalonia"
+			 mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Danfoss.Views.InvoiceView"
+             x:DataType="vm:InvoiceViewModel">
+
+	<Grid>
+		<TabControl Name="tbMain" TabStripPlacement="Left" >
+			<TabItem Background="Red" Name="Danfossinfo" Header="About Danfoss ">
+				<Grid >
+					<Grid.RowDefinitions>
+						<RowDefinition></RowDefinition>
+						<RowDefinition></RowDefinition>
+						<RowDefinition></RowDefinition>
+						<RowDefinition></RowDefinition>
+					</Grid.RowDefinitions>
+					<Calendar HorizontalAlignment="Left" Margin="185,90,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.RowSpan="3" Height="200" Width="300" Background="#FFEE2F2F"/>
+					<TextBlock Grid.Row="3" FontWeight="Bold" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="209,0,0,40">
+						ENGINEERING
+						TOMORROW
+					</TextBlock>
+					<StackPanel Grid.Row="0">
+						<Border Height="49" Width="577" CornerRadius="7" BorderThickness="20">
+							<Border.BorderBrush>
+								<LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+									<GradientStop Color="Red" Offset="0.0" />
+									<GradientStop Color="OrangeRed" Offset="0.50" />
+								</LinearGradientBrush>
+							</Border.BorderBrush>
+							<Rectangle    >
+								<Rectangle.Fill>
+									<LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+										<GradientStop Color="Red" Offset="0.0" />
+										<GradientStop Color="OrangeRed" Offset="0.50" />
+									</LinearGradientBrush>
+								</Rectangle.Fill>
+
+							</Rectangle>
+						</Border>
+					</StackPanel>
+					<TextBlock    HorizontalAlignment="Left" TextWrapping="NoWrap" VerticalAlignment="Top" FontSize="37" FontWeight="Bold" Height="44" Width="255" Text=" D A N F O S S " Background="Transparent" Foreground="White" Margin="158,0,0,0"/>
+					<TextBlock HorizontalAlignment="Center" TextWrapping="WrapWithOverflow" Margin="0,69,0,0" Width="553" >Danfoss is a Danish multinational company, based in Denmark, with more than 41,928 employees globally. Danfoss was founded in 1933 by engineer Mads Clausen</TextBlock>
+					<TextBlock  HorizontalAlignment="Center" Grid.Row="1" TextWrapping="WrapWithOverflow" Margin="0,0,0,38" Width="553">
+						Danfoss Group - global manufacturer of technology components and solutions for refrigeration and air conditioning,
+						heating, water distribution and working machinery. The company's net profit for 2015 was €348 million,
+						with sales of €5.1 billion. The group employs around 28,000 employees worldwide.
+						The company is headquartered in Nordborg, Denmark.
+					</TextBlock>
+				</Grid>
+			</TabItem>
+			<TabItem Background="Red" Name="HPO" Header="Heat Production Optimization " >
+				<Grid>
+					<TabControl>
+						
+						
+						<TabItem FontSize="17" Header="Legend">
+							<Grid>
+								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  FontSize="27" Margin="0,0,0,0" >Heat Demand - MWh </TextBlock>
+								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  FontSize="27"  Margin="0,50,0,0" >Electricity Price - DKK / Mwh(el)</TextBlock>
+								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  FontSize="27" Margin="0,100,0,0">Winter: 1-8th February,2-9th February,3-10th February...</TextBlock>
+								<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="27" Margin="0,150,0,0">Summer: 1-7th June,2-8th June,3-9th June...</TextBlock>
+
+							</Grid>
+								</TabItem>
+						<TabItem FontSize="17" Background="LightGreen" Header="Winter Electricity Price">
+							<Grid>
+								<ScottPlot:AvaPlot Name="WinterElectricityPrice" />
+							</Grid>
+							<!--
+						<TabItem FontSize="17" Background="LightGreen" Header="Winter Heat Demand ">
+							<Grid><ScottPlot:AvaPlot Name="WinterHeat" /></Grid>
+						</TabItem>-->
+						</TabItem >
+						
+						
+						<TabItem FontSize="17" Background="LightGreen" Header="Summer ElectrityPrice">
+							<Grid><ScottPlot:AvaPlot Name="SummerElectrityPrice" /></Grid>
+						</TabItem>
+						
+						<TabItem FontSize="17" Background="LightGreen" Header="Summer Heat Demand">
+							<Grid><ScottPlot:AvaPlot Name="summerHeatDemand" /></Grid>
+
+						</TabItem>
+						
+				</TabControl>
+				</Grid>
+
+				<!--<lvc:CartesianChart BorderThickness="2" BorderBrush="Red" CornerRadius="10"
+				DataContext="{Binding LineChartViewModel}"
+				Series="{Binding Series}"
+				Title="{Binding Title}"
+				XAxes="{Binding XAxes}">
+			
+			</lvc:CartesianChart>-->	
+							
+			</TabItem>
+			<TabItem Background="Red" Name="PU" Header="Production units">
+				<Grid>
+					<TabControl>
+						<TabItem Header="Gas Boiler" Background="LightGreen">
+							<Grid x:Name = "LayoutRoot" Margin = "10,20,-76,-71">
+								<Border BorderThickness = "5" BorderBrush = "Green" Margin="83,0,110,148">
+									<StackPanel Background = "White" Margin="290,5,48,50">
+										<TextBlock FontWeight="Bold">
+											<Run Text="Gas boiler"/>
+										</TextBlock>
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"   Text = "Max Heat in MW" />
+										<ProgressBar x:Name = "MaxHeat" Value = "5.0"  Margin = "1" Maximum = "10"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Max Electricity in MW" />
+										<ProgressBar x:Name = "MaxElectricity" Value = "0"  Margin = "1" Maximum = "16"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Production Costs in DKK/MWh(th)" />
+										<ProgressBar x:Name = "ProductionCosts" Value = "500"  Margin = "1" Maximum = "1100"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "CO2 Consumpition MWh(gas)/MWh(th)" />
+										<ProgressBar x:Name = "CO2Consumpition" Value = "215"  Margin = "1" Maximum = "640"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Gas Consumption MWh(gas)/MWh(th)" />
+										<ProgressBar x:Name = "GasConsumption" Value = "1.1"  Margin = "1" Maximum = "1.9"  Height = "15" IsIndeterminate = "False" />
+										<Image Source="/Assets/Images/GasBoiler.png"></Image>
+									</StackPanel>
+								</Border>
+								<TextBlock HorizontalAlignment="Left" Margin="630,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="172">
+									<Run Text="5"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="0"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="500"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="215"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="1.1"/>
+								</TextBlock>
+							</Grid>
+
+						</TabItem>
+						<TabItem Header="Oil boiler" Background="LightGreen">
+							<Grid x:Name = "WHat" Margin = "10,20,-76,-71">
+
+								<Border BorderThickness = "5" BorderBrush = "Green" Margin="83,0,110,148">
+									<StackPanel Background = "White" Margin="282,5,52,58">
+										<TextBlock FontWeight="Bold">
+											<Run Text="Oil boiler"/>
+										</TextBlock>
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"   Text = "Max Heat in MW" />
+										<ProgressBar x:Name = "MaxHeat1" Value = "4.0"  Margin = "1" Maximum = "10"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Max Electricity in MW" />
+										<ProgressBar x:Name = "MaxElectricity1" Value = "0"  Margin = "1" Maximum = "16"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Production Costs in DKK/MWh(th)" />
+										<ProgressBar x:Name = "ProductionCosts1" Value = "700"  Margin = "1" Maximum = "1100"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "CO2 Consumpition MWh(gas)/MWh(th)" />
+										<ProgressBar x:Name = "CO2Consumpition1" Value = "265"  Margin = "1" Maximum = "640"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Gas Consumption MWh(gas)/MWh(th)" />
+										<ProgressBar x:Name = "GasConsumption1" Value = "1.2"  Margin = "1" Maximum = "1.9"  Height = "15" IsIndeterminate = "False" />
+										<Image Source="/Assets/Images/OilBoiler.png"></Image>
+
+
+									</StackPanel>
+								</Border>
+								<TextBlock HorizontalAlignment="Left" Margin="630,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="165">
+									<Run Text="4"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="0"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="700"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="265"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="1.2"/>
+								</TextBlock>
+
+							</Grid>
+						</TabItem>
+						<TabItem Header="Gas motor" Background="LightGreen">
+							<Grid x:Name = "OO" Margin = "10,20,-76,-71">
+
+								<Border BorderThickness = "5" BorderBrush = "Green" Margin="83,0,110,148">
+									<StackPanel Background = "White" Margin="288,5,46,51">
+										<TextBlock FontWeight="Bold">
+											<Run Text="Gas motor"/>
+										</TextBlock>
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"   Text = "Max Heat in MW" />
+										<ProgressBar  x:Name = "MaxHeat2" Value = "3.6"  Margin = "1" Maximum = "10"  Height = "15" IsIndeterminate = "False" ></ProgressBar>
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Max Electricity in MW" />
+										<ProgressBar x:Name = "MaxElectricity2" Value = "2.7"  Margin = "1" Maximum = "16"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Production Costs in DKK/MWh(th)" />
+										<ProgressBar x:Name = "ProductionCosts2" Value = "1100"  Margin = "1" Maximum = "1100"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "CO2 Consumpition MWh(gas)/MWh(th)" />
+										<ProgressBar x:Name = "CO2Consumpition2" Value = "640"  Margin = "1" Maximum = "640"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Gas Consumption MWh(gas)/MWh(th)" />
+										<ProgressBar x:Name = "GasConsumption2" Value = "1.9"  Margin = "1" Maximum = "1.9"  Height = "15" IsIndeterminate = "False" />
+<!--oooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
+										<Image Source="/Assets/Images/GasMotor.png"></Image>
+
+									</StackPanel>
+								</Border>
+								<TextBlock HorizontalAlignment="Left" Margin="630,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="177">
+									<Run/>
+									<LineBreak/>
+									<Run Text="3.6"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="2.7"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="1100"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="640"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="1.9"/>
+									<LineBreak/>
+									<Run/>
+								</TextBlock>
+
+							</Grid>
+						</TabItem>
+						<TabItem Header="Electric boiler" Background="LightGreen">
+							<Grid x:Name = "WHat3" Margin = "10,20,-76,-71">
+
+								<Border BorderThickness = "5" BorderBrush = "Green" Margin="83,0,110,148">
+									<StackPanel Background = "White" Margin="289,5,45,57">
+										<TextBlock FontWeight="Bold">
+											<Run Text="Electric boiler"/>
+										</TextBlock>
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"   Text = "Max Heat in MW" />
+										<ProgressBar x:Name = "MaxHeat3" Value = "8"  Margin = "1" Maximum = "10"  Height = "15" IsIndeterminate = "False" />
+										<!--WHY -8?????????????????????????????????????????????????????????????????????????????????-->
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Max Electricity in MW" />
+										<ProgressBar x:Name = "MaxElectricity3" Value = "-8"  Margin = "1" Maximum = "16"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Production Costs in DKK/MWh(th)" />
+										<ProgressBar x:Name = "ProductionCosts3" Value = "50"  Margin = "1" Maximum = "1100"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "CO2 Consumpition MWh(gas)/MWh(th)" />
+										<ProgressBar x:Name = "CO2Consumpition3" Value = "0"  Margin = "1" Maximum = "640"  Height = "15" IsIndeterminate = "False" />
+
+										<TextBlock HorizontalAlignment = "Center" Margin = "1"  Text = "Gas Consumption MWh(gas)/MWh(th)" />
+										<ProgressBar x:Name = "GasConsumption3" Value = "0"  Margin = "1" Maximum = "1.9"  Height = "15" IsIndeterminate = "False" />
+										<Image Source="/Assets/Images/ElectricBoiler.png"></Image>
+
+									</StackPanel>
+								</Border>
+								<TextBlock HorizontalAlignment="Left" Margin="635,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="158">
+									<Run Text="8"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="0"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="50"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="0"/>
+									<LineBreak/>
+									<Run/>
+									<LineBreak/>
+									<Run Text="0"/>
+								</TextBlock>
+
+							</Grid>
+						</TabItem>
+					</TabControl>
+				</Grid>
+				
+			</TabItem>
+			<TabItem Background="Red" Name ="Project_Description" Header="Project Description">
+				<Grid>
+					<ScrollViewer>
+						<StackPanel>
+					<TextBlock Foreground="DarkBlue" FontSize="20" >Case</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
+						HeatItOn is the utility in the city of Heatingtonwhich has to secure the heat delivery to approx.
+						1600buildingsthrough a single district heating network. They produce heat with a number of traditional
+						heat-only boilers as well as units that combine the production of heat with the production / consumption
+						of electricity (CHPs). They are planning the heat schedules manually but now theywantto cost optimize their production
+						.The goal of the project is to define heat schedules for all available production units with the lowest possible
+						expensesand the highest profit on the electricity market.
+						
+					</TextBlock>
+					<TextBlock Foreground="DarkBlue" FontSize="20" Margin="20" >About district heating</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
+						District heating is hot water from a power plant which is distributed to the buildings in a city through
+					highly insulated pipes. In the buildings, the hot water is used for heating and for domestic hot water. 
+					The cooled water is then sent back to the plant, where it is reheated again.Figure 1 shows a small district
+					heating grid with two heat producers.Classified as BusinessThe majority of the heat comes from cogeneration plants that produce both electricity 
+						and heat. The heat can be produced in many different ways and with different types of fuel, such as waste,
+						gas, coal, and biomass. In addition, the industry's surplus heat, solar and geothermal heat,and large heat
+						pumps as well as electric boilers are also used.Figure 2 shows how heat production and electricity production 
+						/ consumption is connected to the heat consumers.
+					</TextBlock>
+
+					<TextBlock Margin="20" Foreground="DarkBlue" FontSize="20" >Heating area</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >Architecture: single district heating network</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >Size: 1600 buildings</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
+						City: Heatington
+					</TextBlock>
+						<Image  Margin="20" Source="/Assets/Images/City.png.png"></Image>
+
+
+				</StackPanel>
+				</ScrollViewer>
+				</Grid>
+			</TabItem>
+			
+
+			
+			<TabItem Margin="-1,308,-1,-327" Header="Log Out" Background="Red" Name="Log_Out">
+				<Grid>
+
+					<!--<Button Margin="212,222,213,189" Background="#FFED3232" Command="{Binding LogOutCommand}" ></Button>
+-->
+					<TextBlock Margin="200,230,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Width="240">Are you sure you want to log out?</TextBlock>
+					<CheckBox Margin="200,150,0,0">Yes </CheckBox>	
+					
+				</Grid>
+			</TabItem>
+		</TabControl>
+	</Grid>
+
+
+</UserControl>
