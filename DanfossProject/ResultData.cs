@@ -21,7 +21,7 @@ namespace DanfossProject
         public void DisplayResult()
         {
 
-            Console.WriteLine("Model Name:" + ModelName + " Time from: " + TimeFrom + " Time to: " + TimeTo + " Produced heat: " + ProducedHeat + " Net Electricity: " + NetElectricity + " Production Costs: " + ProductionCosts + " Produced CO2:" + ProducedCO2);
+            Console.WriteLine("MaxHeat: " + MaxHeat + ", MaxEle: " + MaxElectricity + ", CO2 consumption: " + CO2Consumpition + ", Percemtage: " + Percentage + ", Model Name:" + ModelName + ", Time from: " + TimeFrom + ", Time to: " + TimeTo + ", Produced heat: " + ProducedHeat + ", Net Electricity: " + NetElectricity + ", Production Costs: " + ProductionCosts + ", Produced CO2:" + ProducedCO2);
 
         }
 
