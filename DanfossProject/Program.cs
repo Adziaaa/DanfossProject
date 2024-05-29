@@ -27,11 +27,14 @@ namespace DanfossProject
 
             List<Model> models = new List<Model>();
 
-
-
-
             var (result_winter, CO2result_winter) = optfromscratchObject.OptimizeData(AM.AssetManager, WinterSourceDataManager);
             var (result_summer, CO2result_summer) = optfromscratchObject.OptimizeData(AM.AssetManager, SummerSourceDataManager);
+
+            ResultDataCsvManager RDM = new ResultDataCsvManager();
+            RDM.RdmCsvWriter(result_winter, "ResultWinter.csv");
+            RDM.RdmCsvWriter(CO2result_winter, "CO2ResultWinter.csv");
+            RDM.RdmCsvWriter(result_summer, "ResultSummer.csv");
+            RDM.RdmCsvWriter(CO2result_summer, "CO2ResultSummer.csv");
 
             Console.WriteLine("Winter Results - Cheapest Model:");
             foreach (var result in result_winter)
