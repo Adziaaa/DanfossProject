@@ -240,67 +240,74 @@
 
 
 			<TabItem Background="Red" Name="OPT" Header="Optimizer">
-				<TabControl FontSize="10">
+				<TabControl FontSize="11">
 					<TabItem  Header="Summer" Background="Orange">
-						<TabControl  >
-							<TabItem   Header="Cheapest Model" >
+						<TabControl >
+							<TabItem FontSize="13"  Header="Cheapest Model" >
 								<ScrollViewer>
 									<ListBox HorizontalAlignment="Left" VerticalAlignment="Top">
 
 										<ListBoxItem>
-											Model Name: Gas Motor
-											Time from: 7/8/2023 0:00
-											Time to: 7/8/2023 1:00
-											Produced heat: 1.79
-											Net Electricity: 1.3425
-											Production Costs: 546.9444444444445
-											Produced CO2: 318.22222222222223
+											Model Name:Gas Motor, Time from: 7/8/2023 0:00, Time to: 7/8/2023 1:00, Produced heat: 1,79, Net Electricity: 1,3425, Production Costs: 546,9444444444445, Produced CO2:318,22222222222223
 										</ListBoxItem>
 										<ListBoxItem>
-											Model Name: Gas Motor
-											Time from: 7/8/2023 0:00
-											Time to: 7/8/2023 1:00
-											Produced heat: 1.79
-											Net Electricity: 1.3425
-											Production Costs: 546.9444444444445
-											Produced CO2: 318.22222222222223
+											Model Name:Gas Motor, Time from: 7/9/2023 0:00, Time to: 7/9/2023 1:00, Produced heat: 1,54, Net Electricity: 1,155, Production Costs: 470,55555555555554, Produced CO2:273,77777777777777
 										</ListBoxItem>
 										<ListBoxItem>
-											Model Name: Gas Motor
-											Time from: 7/8/2023 0:00
-											Time to: 7/8/2023 1:00
-											Produced heat: 1.79
-											Net Electricity: 1.3425
-											Production Costs: 546.9444444444445
-											Produced CO2: 318.22222222222223
+											Model Name:Gas Motor, Time from: 7/10/2023 0:00, Time to: 7/10/2023 1:00, Produced heat: 1,4, Net Electricity: 1,05, Production Costs: 427,7777777777777, Produced CO2:248,88888888888886
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Gas Motor, Time from: 7/11/2023 0:00, Time to: 7/11/2023 1:00, Produced heat: 1,53, Net Electricity: 1,1475, Production Costs: 467,5, Produced CO2:272
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Gas Motor, Time from: 7/12/2023 0:00, Time to: 7/12/2023 1:00, Produced heat: 1,7, Net Electricity: 1,2750000000000001, Production Costs: 519,4444444444445, Produced CO2:302,22222222222223
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Gas Motor, Time from: 7/13/2023 0:00, Time to: 7/13/2023 1:00, Produced heat: 1,67, Net Electricity: 1,2525, Production Costs: 510,2777777777777, Produced CO2:296,88888888888886
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Gas Motor, Time from: 7/14/2023 0:00, Time to: 7/14/2023 1:00, Produced heat: 1,71, Net Electricity: 1,2825, Production Costs: 522,5, Produced CO2:304
 										</ListBoxItem>
 
 
 									</ListBox>
 								</ScrollViewer>
 							</TabItem>
-							<TabItem Header="Cheapest Model- Chart">
+							<TabItem FontSize="13" Header="Cheapest Model- Chart">
 								<Grid>
 									<ScottPlot:AvaPlot Name="SummerOptimizer" />
 									<TextBlock HorizontalAlignment="Right" Margin="50" FontSize="15">Blue is heat demand, Orange is Produced Heat</TextBlock>
 								</Grid>
 							</TabItem>
-							<TabItem  Header="Least CO2">
+							<TabItem FontSize="13" Header="Least CO2">
 								<ScrollViewer>
 									<ListBox HorizontalAlignment="Left" VerticalAlignment="Top">
+
 										<ListBoxItem>
-											Model Name: Electric Boiler
-											Time from: 7/8/2023 0:00
-											Time to: 7/8/2023 1:00
-											Produced heat: 1.79
-											Net Electricity: -1.79
-											Production Costs: 11.1875
-											Produced CO2: 0
+											Model Name:Electric Boiler, Time from: 7/8/2023 0:00, Time to: 7/8/2023 1:00, Produced heat: 1,79, Net Electricity: -1,79, Production Costs: 11,1875, Produced CO2:0
 										</ListBoxItem>
+										<ListBoxItem>
+										Model Name:Electric Boiler, Time from: 7/9/2023 0:00, Time to: 7/9/2023 1:00, Produced heat: 1,54, Net Electricity: -1,54, Production Costs: 9,625, Produced CO2:0
+									</ListBoxItem>
+										<ListBoxItem>
+										Model Name:Electric Boiler, Time from: 7/10/2023 0:00, Time to: 7/10/2023 1:00, Produced heat: 1,4, Net Electricity: -1,4, Production Costs: 8,75, Produced CO2:0
+									</ListBoxItem>
+										<ListBoxItem>
+										Model Name:Electric Boiler, Time from: 7/11/2023 0:00, Time to: 7/11/2023 1:00, Produced heat: 1,53, Net Electricity: -1,53, Production Costs: 9,5625, Produced CO2:0
+									</ListBoxItem>
+										<ListBoxItem>
+										Model Name:Electric Boiler, Time from: 7/12/2023 0:00, Time to: 7/12/2023 1:00, Produced heat: 1,7, Net Electricity: -1,7, Production Costs: 10,625, Produced CO2:0
+									</ListBoxItem>
+										<ListBoxItem>
+										Model Name:Electric Boiler, Time from: 7/13/2023 0:00, Time to: 7/13/2023 1:00, Produced heat: 1,67, Net Electricity: -1,67, Production Costs: 10,4375, Produced CO2:0
+									</ListBoxItem>
+										<ListBoxItem>
+										Model Name:Electric Boiler, Time from: 7/14/2023 0:00, Time to: 7/14/2023 1:00, Produced heat: 1,71, Net Electricity: -1,71, Production Costs: 10,6875, Produced CO2:0
+									</ListBoxItem>
 									</ListBox>
 								</ScrollViewer>
 							</TabItem>
-							<TabItem Header="Least CO2- chart">
+							<TabItem FontSize="13" Header="Least CO2- chart">
 								<Grid>
 									<ScottPlot:AvaPlot Name="SummerSec" />
 								<TextBlock HorizontalAlignment="Right" Margin="50" FontSize="15">Blue is produced heat, Orange is  Heat Demand</TextBlock>
@@ -311,43 +318,73 @@
 					</TabItem>
 					<TabItem Header="Winter" Background="Blue" Foreground="White">
 						<TabControl >
-							<TabItem  Header="Cheapest Model">
+							<TabItem FontSize="13" Header="Cheapest Model">
 								<ScrollViewer>
 									<ListBox HorizontalAlignment="Left" VerticalAlignment="Top">
+
+
+
 										<ListBoxItem>
-											Model Name: Gas Motor
-											Time from: 2/8/2023 0:00
-											Time to: 2/8/2023 1:00
-											Produced heat: 3.6
-											Net Electricity: 2.7
-											Production Costs: 1100
-											Produced CO2: 640
+												Model Name:Gas Boiler, Time from: 2/8/2023 0:00, Time to: 2/8/2023 1:00, Produced heat: 3,02, Net Electricity: 0, Production Costs: 302, Produced CO2:129,85999999999999
+											</ListBoxItem>
+										<ListBoxItem>
+												Model Name:Gas Boiler, Time from: 2/9/2023 0:00, Time to: 2/9/2023 1:00, Produced heat: 3,9800000000000004, Net Electricity: 0, Production Costs: 398, Produced CO2:171,14000000000001
+											</ListBoxItem>
+										<ListBoxItem>
+												Model Name:Gas Boiler, Time from: 2/10/2023 0:00, Time to: 2/10/2023 1:00, Produced heat: 3,1999999999999993, Net Electricity: 0, Production Costs: 319,99999999999994, Produced CO2:137,59999999999997
+											</ListBoxItem>
+										<ListBoxItem>
+												Model Name:Gas Boiler, Time from: 2/11/2023 0:00, Time to: 2/11/2023 1:00, Produced heat: 2,7499999999999996, Net Electricity: 0, Production Costs: 274,99999999999994, Produced CO2:118,24999999999999
+											</ListBoxItem>
+										<ListBoxItem>
+												Model Name:Gas Boiler, Time from: 2/12/2023 0:00, Time to: 2/12/2023 1:00, Produced heat: 2,4499999999999997, Net Electricity: 0, Production Costs: 244,99999999999997, Produced CO2:105,34999999999998
+											</ListBoxItem>
+										<ListBoxItem>
+												Model Name:Gas Boiler, Time from: 2/13/2023 0:00, Time to: 2/13/2023 1:00, Produced heat: 2,48, Net Electricity: 0, Production Costs: 248, Produced CO2:106,64
+											</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Gas Boiler, Time from: 2/14/2023 0:00, Time to: 2/14/2023 1:00, Produced heat: 2,55, Net Electricity: 0, Production Costs: 255, Produced CO2:109,65
 										</ListBoxItem>
+										
 									</ListBox>
 								</ScrollViewer>
 							</TabItem>
-							<TabItem Header="Cheapest Model- chart">
+							<TabItem FontSize="13" Header="Cheapest Model- chart">
 								<Grid>
 									<ScottPlot:AvaPlot Name="winter" />
 									<TextBlock HorizontalAlignment="Right" Margin="50">Blue is heat demand, Orange is Produced heat</TextBlock>
 								</Grid>
 							</TabItem>
-							<TabItem  Header="Least CO2">
+							<TabItem FontSize="13" Header="Least CO2">
 								<ScrollViewer>
 									<ListBox HorizontalAlignment="Left" VerticalAlignment="Top">
+
 										<ListBoxItem>
-											Model Name: Electric Boiler
-											Time from: 2/8/2023 0:00
-											Time to: 2/8/2023 1:00
-											Produced heat: 6.62
-											Net Electricity: -6.62
-											Production Costs: 41.375
-											Produced CO2: 0
+											Model Name:Electric Boiler, Time from: 2/8/2023 0:00, Time to: 2/8/2023 1:00, Produced heat: 6,62, Net Electricity: -6,62, Production Costs: 41,375, Produced CO2:0
 										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Electric Boiler, Time from: 2/9/2023 0:00, Time to: 2/9/2023 1:00, Produced heat: 7,58, Net Electricity: -7,58, Production Costs: 47,375, Produced CO2:0
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Electric Boiler, Time from: 2/10/2023 0:00, Time to: 2/10/2023 1:00, Produced heat: 6,8, Net Electricity: -6,8, Production Costs: 42,5, Produced CO2:0
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Electric Boiler, Time from: 2/11/2023 0:00, Time to: 2/11/2023 1:00, Produced heat: 6,35, Net Electricity: -6,35, Production Costs: 39,6875, Produced CO2:0
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Electric Boiler, Time from: 2/12/2023 0:00, Time to: 2/12/2023 1:00, Produced heat: 6,05, Net Electricity: -6,05, Production Costs: 37,8125, Produced CO2:0
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Electric Boiler, Time from: 2/13/2023 0:00, Time to: 2/13/2023 1:00, Produced heat: 6,08, Net Electricity: -6,08, Production Costs: 38, Produced CO2:0
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name:Electric Boiler, Time from: 2/14/2023 0:00, Time to: 2/14/2023 1:00, Produced heat: 6,15, Net Electricity: -6,15, Production Costs: 38,4375, Produced CO2:0
+										</ListBoxItem>
+
 									</ListBox>
 								</ScrollViewer>
 							</TabItem>
-							<TabItem Header="Least CO2-chart">
+							<TabItem FontSize="13" Header="Least CO2-chart">
 								<Grid>
 									<ScottPlot:AvaPlot Name="wintersec" />
 									<TextBlock HorizontalAlignment="Right" Margin="50">Blue is produced Heat, Orange is Heat Demand</TextBlock>
