@@ -225,31 +225,158 @@
 				
 				
 			</TabItem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			<TabItem Background="Red" Name="OPT" Header="Optimizer">
-				<Grid>
-				
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</Grid>
+				<TabControl FontSize="10">
+					<TabItem  Header="Summer" Background="Orange">
+						<TabControl  >
+							<TabItem   Header="Cheapest Model" >
+								<ScrollViewer>
+									<ListBox HorizontalAlignment="Left" VerticalAlignment="Top">
+
+										<ListBoxItem>
+											Model Name: Gas Motor
+											Time from: 7/8/2023 0:00
+											Time to: 7/8/2023 1:00
+											Produced heat: 1.79
+											Net Electricity: 1.3425
+											Production Costs: 546.9444444444445
+											Produced CO2: 318.22222222222223
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name: Gas Motor
+											Time from: 7/8/2023 0:00
+											Time to: 7/8/2023 1:00
+											Produced heat: 1.79
+											Net Electricity: 1.3425
+											Production Costs: 546.9444444444445
+											Produced CO2: 318.22222222222223
+										</ListBoxItem>
+										<ListBoxItem>
+											Model Name: Gas Motor
+											Time from: 7/8/2023 0:00
+											Time to: 7/8/2023 1:00
+											Produced heat: 1.79
+											Net Electricity: 1.3425
+											Production Costs: 546.9444444444445
+											Produced CO2: 318.22222222222223
+										</ListBoxItem>
+
+
+									</ListBox>
+								</ScrollViewer>
+							</TabItem>
+							<TabItem Header="Cheapest Model- Chart">
+								<Grid>
+									<ScottPlot:AvaPlot Name="SummerOptimizer" />
+									<TextBlock HorizontalAlignment="Right" Margin="50" FontSize="15">Blue is heat demand, Orange is Produced Heat</TextBlock>
+								</Grid>
+							</TabItem>
+							<TabItem  Header="Least CO2">
+								<ScrollViewer>
+									<ListBox HorizontalAlignment="Left" VerticalAlignment="Top">
+										<ListBoxItem>
+											Model Name: Electric Boiler
+											Time from: 7/8/2023 0:00
+											Time to: 7/8/2023 1:00
+											Produced heat: 1.79
+											Net Electricity: -1.79
+											Production Costs: 11.1875
+											Produced CO2: 0
+										</ListBoxItem>
+									</ListBox>
+								</ScrollViewer>
+							</TabItem>
+							<TabItem Header="Least CO2- chart">
+								<Grid>
+									<ScottPlot:AvaPlot Name="SummerSec" />
+								<TextBlock HorizontalAlignment="Right" Margin="50" FontSize="15">Blue is produced heat, Orange is  Heat Demand</TextBlock>
+							</Grid>
+
+							</TabItem>
+						</TabControl>
+					</TabItem>
+					<TabItem Header="Winter" Background="Blue" Foreground="White">
+						<TabControl >
+							<TabItem  Header="Cheapest Model">
+								<ScrollViewer>
+									<ListBox HorizontalAlignment="Left" VerticalAlignment="Top">
+										<ListBoxItem>
+											Model Name: Gas Motor
+											Time from: 2/8/2023 0:00
+											Time to: 2/8/2023 1:00
+											Produced heat: 3.6
+											Net Electricity: 2.7
+											Production Costs: 1100
+											Produced CO2: 640
+										</ListBoxItem>
+									</ListBox>
+								</ScrollViewer>
+							</TabItem>
+							<TabItem Header="Cheapest Model- chart">
+								<Grid>
+									<ScottPlot:AvaPlot Name="winter" />
+									<TextBlock HorizontalAlignment="Right" Margin="50">Blue is heat demand, Orange is Produced heat</TextBlock>
+								</Grid>
+							</TabItem>
+							<TabItem  Header="Least CO2">
+								<ScrollViewer>
+									<ListBox HorizontalAlignment="Left" VerticalAlignment="Top">
+										<ListBoxItem>
+											Model Name: Electric Boiler
+											Time from: 2/8/2023 0:00
+											Time to: 2/8/2023 1:00
+											Produced heat: 6.62
+											Net Electricity: -6.62
+											Production Costs: 41.375
+											Produced CO2: 0
+										</ListBoxItem>
+									</ListBox>
+								</ScrollViewer>
+							</TabItem>
+							<TabItem Header="Least CO2-chart">
+								<Grid>
+									<ScottPlot:AvaPlot Name="wintersec" />
+									<TextBlock HorizontalAlignment="Right" Margin="50">Blue is produced Heat, Orange is Heat Demand</TextBlock>
+
+								</Grid>
+							</TabItem>
+						</TabControl>
+					</TabItem>
+				</TabControl>
+
 			</TabItem>
-			
-			
-			
-			
-				<TabItem Background="Red" Name="PU" Header="Asset Manager">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<TabItem Background="Red" Name="PU" Header="Asset Manager">
 				<Grid>
 					<TabControl>
 						<TabItem Header="Gas Boiler" Background="LightGreen">
