@@ -78,18 +78,14 @@ public partial class InvoiceView : UserControl
 
         double[] dataCo2 = { 1.7, 1.54, 1.4,1.5, 1.7, 1.6, 1.71    };// summer 
         AvaPlot SummerSecound = this.Find<AvaPlot>("SummerSec");
-
         SummerSecound.Plot.Add.Scatter(dataA, dataCo2);
         SummerSecound.Plot.Add.Scatter(dataA, dataZ);
-
         SummerSecound.Refresh();
 
         double[] dataW = {6.62,7.55, 6.68,6.46, 6.05, 6.03,6.19  };// winter 
         AvaPlot wintersec = this.Find<AvaPlot>("wintersec");
-
         wintersec.Plot.Add.Scatter(dataA, dataW);
         wintersec.Plot.Add.Scatter(dataA, dataY);
-
         wintersec.Refresh();
 
     }
