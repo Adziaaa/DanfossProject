@@ -68,9 +68,9 @@ namespace DanfossProject
         }
 
 
-        public CO2ResultData CreateCO2ResultData(Model model, double percentage)
+        public ResultData CreateCO2ResultData(Model model, double percentage)
         {
-            return new CO2ResultData
+            return new ResultData
             {
                 Percentage = percentage,
                 MaxHeat = model.MaxHeat * percentage,
@@ -126,9 +126,9 @@ namespace DanfossProject
         }
 
 
-        private List<CO2ResultData> CalculateCO2ResultDataForInterval(List<Model> models, SdmRecord sdmRecord)
+        private List<ResultData> CalculateCO2ResultDataForInterval(List<Model> models, SdmRecord sdmRecord)
         {
-            List<CO2ResultData> co2ResultDataList = new();
+            List<ResultData> co2ResultDataList = new();
             List<Model> unusedModels = models.ToList();
 
             double currentHeatDemand = sdmRecord.HeatDemand;
@@ -150,7 +150,7 @@ namespace DanfossProject
                     percentage = currentHeatDemand / leastCO2Model.MaxHeat;
                 }
 
-                CO2ResultData co2ResultData = new()
+                ResultData co2ResultData = new()
                 {
                     TimeFrom = sdmRecord.TimeFrom,
                     TimeTo = sdmRecord.TimeTo,
@@ -169,10 +169,10 @@ namespace DanfossProject
             return co2ResultDataList;
         }
 
-        public (List<ResultData>, List<CO2ResultData>) OptimizeData(List<Model> models, List<SdmRecord> sdmRecords)
+        public (List<ResultData>, List<ResultData>) OptimizeData(List<Model> models, List<SdmRecord> sdmRecords)
         {
             List<ResultData> resultData = new List<ResultData>();
-            List<CO2ResultData> co2ResultData=new List<CO2ResultData>();
+            List<ResultData> co2ResultData=new List<ResultData>();
 
             foreach (SdmRecord sdmRecord in sdmRecords)
             {
@@ -181,7 +181,7 @@ namespace DanfossProject
                 resultData.AddRange(intervalResults);
 
 
-                List<CO2ResultData> intervalCO2Results = CalculateCO2ResultDataForInterval(models, sdmRecord);
+                List<ResultData> intervalCO2Results = CalculateCO2ResultDataForInterval(models, sdmRecord);
                 //Console.WriteLine(intervalResults.Count);
                 co2ResultData.AddRange(intervalCO2Results);
             }

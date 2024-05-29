@@ -10,7 +10,7 @@ namespace DanfossProject
 
     public class ResultDataCsvManager
     {
-        public void CO2RdmCsvWriter(List<CO2ResultData> records, string ResultData)
+        public void CO2RdmCsvWriter(List<ResultData> records, string ResultData)
         {
             using (var writer = new StreamWriter("CO2ResultData.csv"))
             using (var csv = new CsvWriter(writer, new CsvConfiguration(CultureInfo.InvariantCulture)))
@@ -55,12 +55,12 @@ namespace DanfossProject
         {
             if (File.Exists("CO2ResultData.csv"))
             {
-                List<CO2ResultData> outputRecords = new();
+                List<ResultData> outputRecords = new();
 
                 using (var reader = new StreamReader("CO2ResultData.csv"))
                 using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
                 {
-                    var records = csv.GetRecords<CO2ResultData>();
+                    var records = csv.GetRecords<ResultData>();
 
                     foreach (var record in records)
                     {
