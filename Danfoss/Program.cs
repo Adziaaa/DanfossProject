@@ -40,6 +40,12 @@ sealed class Program
 
         var (result_winter, CO2result_winter) = optfromscratchObject.OptimizeData(AM.AssetManager, WinterSourceDataManager);
         var (result_summer, CO2result_summer) = optfromscratchObject.OptimizeData(AM.AssetManager, SummerSourceDataManager);
+
+        ResultDataCsvManager RDM = new ResultDataCsvManager();
+        RDM.RdmCsvWriter(result_winter, "ResultWinter.csv");
+        RDM.RdmCsvWriter(CO2result_winter, "CO2ResultWinter.csv");
+        RDM.RdmCsvWriter(result_summer, "ResultSummer.csv");
+        RDM.RdmCsvWriter(CO2result_summer, "CO2ResultSummer.csv");
     }
 
     // Avalonia configuration, don't remove; also used by visual designer.
