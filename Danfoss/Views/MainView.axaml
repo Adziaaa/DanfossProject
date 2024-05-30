@@ -8,14 +8,7 @@
              x:DataType="vm:MainViewModel">
 
 	<Grid>
-		<!--	  <Button Content="Log in" x:Name="Log_In"  Command="{Binding ShowLoginCommand}" ></Button>
--->
-
-		<!--	  <Button Content="Invoice"  Command="{Binding ShowInvoiceCommand}" /> 
-   
-   <Image Source="DanfosBuilding.png" Margin="-3,0,3,0" ></Image>
-
--->
+		
 		<Image Source="/Assets/Images/DanfosBuilding.png" ></Image>
 
 
@@ -24,10 +17,8 @@
 			<LineBreak/>
 			<Run Text="Heat Production Optimization"/>
 		</TextBlock>
-		<!--add log in text somehow    	<Rectangle Margin="0,230,0,0" Height="100" Width="1200" Fill="White"/>
--->
 
-		<!--PointerMoved="Log_In_MouseEnter"-->
+	
 		<Rectangle Margin="0,210,0,0" Height="31" Width="497" Fill="DarkRed"/>
 		<Button  Width="500" HorizontalAlignment="Center" VerticalAlignment="Center"
 				Content="Log in " x:Name="Log_In"  Command="{Binding ShowLoginCommand}"

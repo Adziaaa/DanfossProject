@@ -12,10 +12,5 @@ public partial class MainView : UserControl
     {
         InitializeComponent();
     }
-   /*
-    public void Log_In_MouseEnter(object sender, RoutedEventArgs e)
-    {
-        Log_In.Background = Brushes.DarkRed;
-    }
-   */
+  
 }
