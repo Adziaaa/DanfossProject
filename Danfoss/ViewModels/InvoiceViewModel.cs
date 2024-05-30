@@ -4,7 +4,7 @@ using MathNet.Numerics;
 using ReactiveUI;
 using System;
 using System.Reactive;
-using static Danfoss.ViewModels.Charts.WeatherForecast;
+
 
 
 
