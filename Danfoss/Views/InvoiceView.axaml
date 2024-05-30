@@ -53,7 +53,46 @@
 					</TextBlock>
 				</Grid>
 			</TabItem>
-			
+						<TabItem Background="Red" Name ="Project_Description" Header="Project Description">
+				<Grid>
+					<ScrollViewer>
+						<StackPanel>
+					<TextBlock Margin="20" Foreground="DarkBlue" FontSize="20" >Case</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
+						HeatItOn is the utility in the city of Heatingtonwhich has to secure the heat delivery to approx.
+						1600buildingsthrough a single district heating network. They produce heat with a number of traditional
+						heat-only boilers as well as units that combine the production of heat with the production / consumption
+						of electricity (CHPs). They are planning the heat schedules manually but now theywantto cost optimize their production
+						.The goal of the project is to define heat schedules for all available production units with the lowest possible
+						expensesand the highest profit on the electricity market.
+						
+					</TextBlock>
+					<TextBlock Foreground="DarkBlue" FontSize="20" Margin="20" >About district heating</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
+						District heating is hot water from a power plant which is distributed to the buildings in a city through
+					highly insulated pipes. In the buildings, the hot water is used for heating and for domestic hot water. 
+					The cooled water is then sent back to the plant, where it is reheated again.Figure 1 shows a small district
+					heating grid with two heat producers.Classified as BusinessThe majority of the heat comes from cogeneration plants that produce both electricity 
+						and heat. The heat can be produced in many different ways and with different types of fuel, such as waste,
+						gas, coal, and biomass. In addition, the industry's surplus heat, solar and geothermal heat,and large heat
+						pumps as well as electric boilers are also used.Figure 2 shows how heat production and electricity production 
+						/ consumption is connected to the heat consumers.
+					</TextBlock>
+
+					<TextBlock Margin="20" Foreground="DarkBlue" FontSize="20" >Heating area</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >Architecture: single district heating network</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >Size: 1600 buildings</TextBlock>
+					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
+						City: Heatington
+					</TextBlock>
+						<Image  Margin="20" Source="/Assets/Images/City.png.png"></Image>
+
+
+				</StackPanel>
+				</ScrollViewer>
+				</Grid>
+			</TabItem>
+
 			<TabItem Background="Red" Name="HPO" Header="Source Data Manager" >
 				<Grid>
 					<TabControl>
@@ -1421,45 +1460,6 @@
 					</TabControl>
 				</Grid>
 				
-			</TabItem>
-			<TabItem Background="Red" Name ="Project_Description" Header="Project Description">
-				<Grid>
-					<ScrollViewer>
-						<StackPanel>
-					<TextBlock Margin="20" Foreground="DarkBlue" FontSize="20" >Case</TextBlock>
-					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
-						HeatItOn is the utility in the city of Heatingtonwhich has to secure the heat delivery to approx.
-						1600buildingsthrough a single district heating network. They produce heat with a number of traditional
-						heat-only boilers as well as units that combine the production of heat with the production / consumption
-						of electricity (CHPs). They are planning the heat schedules manually but now theywantto cost optimize their production
-						.The goal of the project is to define heat schedules for all available production units with the lowest possible
-						expensesand the highest profit on the electricity market.
-						
-					</TextBlock>
-					<TextBlock Foreground="DarkBlue" FontSize="20" Margin="20" >About district heating</TextBlock>
-					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
-						District heating is hot water from a power plant which is distributed to the buildings in a city through
-					highly insulated pipes. In the buildings, the hot water is used for heating and for domestic hot water. 
-					The cooled water is then sent back to the plant, where it is reheated again.Figure 1 shows a small district
-					heating grid with two heat producers.Classified as BusinessThe majority of the heat comes from cogeneration plants that produce both electricity 
-						and heat. The heat can be produced in many different ways and with different types of fuel, such as waste,
-						gas, coal, and biomass. In addition, the industry's surplus heat, solar and geothermal heat,and large heat
-						pumps as well as electric boilers are also used.Figure 2 shows how heat production and electricity production 
-						/ consumption is connected to the heat consumers.
-					</TextBlock>
-
-					<TextBlock Margin="20" Foreground="DarkBlue" FontSize="20" >Heating area</TextBlock>
-					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >Architecture: single district heating network</TextBlock>
-					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >Size: 1600 buildings</TextBlock>
-					<TextBlock FontSize="15" TextWrapping="WrapWithOverflow" Margin="20" >
-						City: Heatington
-					</TextBlock>
-						<Image  Margin="20" Source="/Assets/Images/City.png.png"></Image>
-
-
-				</StackPanel>
-				</ScrollViewer>
-				</Grid>
 			</TabItem>
 			
 

@@ -67,7 +67,7 @@ public partial class InvoiceView : UserControl
         AvaPlot winter = this.Find<AvaPlot>("winter");
 
         winter.Plot.Add.Scatter(dataA, dataY);
-        // produced heat 
+        // produced heat
         winter.Plot.Add.Scatter(dataA, dataP);
         winter.Refresh();
 
