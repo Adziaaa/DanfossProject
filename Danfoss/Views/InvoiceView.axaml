@@ -663,375 +663,361 @@
 								<ScrollViewer>
 									<ListBox FontSize="9" HorizontalAlignment="Left" VerticalAlignment="Top">
 
+										Winter Results - Cheapest Model:
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 0:00, Time to: 2/8/2023 1:00, Produced heat: 6,62, Net Electricity: 0, Production Costs: 302, Produced CO2:129,86</ListBoxItem>
 
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 0:00, Time to: 2/8/2023 1:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 0:00, Time to: 2/8/2023 1:00, Produced heat: 3,02, Net Electricity: 0, Production Costs: 302, Produced CO2:129,86</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 1:00, Time to: 2/8/2023 2:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 1:00, Time to: 2/8/2023 2:00, Produced heat: 3,25, Net Electricity: 0, Production Costs: 325, Produced CO2:139,75</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 2:00, Time to: 2/8/2023 3:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 2:00, Time to: 2/8/2023 3:00, Produced heat: 3,38, Net Electricity: 0, Production Costs: 338, Produced CO2:145,34</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 3:00, Time to: 2/8/2023 4:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 3:00, Time to: 2/8/2023 4:00, Produced heat: 3,44, Net Electricity: 0, Production Costs: 344, Produced CO2:147,92</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/8/2023 3:00, Time to: 2/8/2023 4:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 4:00, Time to: 2/8/2023 5:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 4:00, Time to: 2/8/2023 5:00, Produced heat: 4,12, Net Electricity: 0, Production Costs: 412, Produced CO2:177,16</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 5:00, Time to: 2/8/2023 6:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 5:00, Time to: 2/8/2023 6:00, Produced heat: 4,25, Net Electricity: 0, Production Costs: 425, Produced CO2:182,75</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 6:00, Time to: 2/8/2023 7:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 6:00, Time to: 2/8/2023 7:00, Produced heat: 4,55, Net Electricity: 0, Production Costs: 455, Produced CO2:195,65</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 7:00, Time to: 2/8/2023 8:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 7:00, Time to: 2/8/2023 8:00, Produced heat: 4,02, Net Electricity: 0, Production Costs: 402, Produced CO2:172,86</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 8:00, Time to: 2/8/2023 9:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 8:00, Time to: 2/8/2023 9:00, Produced heat: 3,95, Net Electricity: 0, Production Costs: 395, Produced CO2:169,85</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 9:00, Time to: 2/8/2023 10:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 9:00, Time to: 2/8/2023 10:00, Produced heat: 4, Net Electricity: 0, Production Costs: 400, Produced CO2:172</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 10:00, Time to: 2/8/2023 11:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 10:00, Time to: 2/8/2023 11:00, Produced heat: 4,15, Net Electricity: 0, Production Costs: 415, Produced CO2:178,45</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 11:00, Time to: 2/8/2023 12:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 11:00, Time to: 2/8/2023 12:00, Produced heat: 3,46, Net Electricity: 0, Production Costs: 346, Produced CO2:148,78</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 12:00, Time to: 2/8/2023 13:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 12:00, Time to: 2/8/2023 13:00, Produced heat: 3,08, Net Electricity: 0, Production Costs: 308, Produced CO2:132,44</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/8/2023 12:00, Time to: 2/8/2023 13:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 13:00, Time to: 2/8/2023 14:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 13:00, Time to: 2/8/2023 14:00, Produced heat: 3,13, Net Electricity: 0, Production Costs: 313, Produced CO2:134,59</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 14:00, Time to: 2/8/2023 15:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 14:00, Time to: 2/8/2023 15:00, Produced heat: 3,24, Net Electricity: 0, Production Costs: 324, Produced CO2:139,32</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/8/2023 14:00, Time to: 2/8/2023 15:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 15:00, Time to: 2/8/2023 16:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 15:00, Time to: 2/8/2023 16:00, Produced heat: 3,7, Net Electricity: 0, Production Costs: 370, Produced CO2:159,1</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 16:00, Time to: 2/8/2023 17:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 16:00, Time to: 2/8/2023 17:00, Produced heat: 3,79, Net Electricity: 0, Production Costs: 379, Produced CO2:162,97</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 17:00, Time to: 2/8/2023 18:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 17:00, Time to: 2/8/2023 18:00, Produced heat: 4,08, Net Electricity: 0, Production Costs: 408, Produced CO2:175,44</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 18:00, Time to: 2/8/2023 19:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 18:00, Time to: 2/8/2023 19:00, Produced heat: 3,78, Net Electricity: 0, Production Costs: 378, Produced CO2:162,54</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 19:00, Time to: 2/8/2023 20:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 19:00, Time to: 2/8/2023 20:00, Produced heat: 3,8, Net Electricity: 0, Production Costs: 380, Produced CO2:163,4</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/8/2023 19:00, Time to: 2/8/2023 20:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 20:00, Time to: 2/8/2023 21:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 20:00, Time to: 2/8/2023 21:00, Produced heat: 3,96, Net Electricity: 0, Production Costs: 396, Produced CO2:170,28</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 21:00, Time to: 2/8/2023 22:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 21:00, Time to: 2/8/2023 22:00, Produced heat: 4,09, Net Electricity: 0, Production Costs: 409, Produced CO2:175,87</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 22:00, Time to: 2/8/2023 23:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 22:00, Time to: 2/8/2023 23:00, Produced heat: 4,06, Net Electricity: 0, Production Costs: 406, Produced CO2:174,58</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/8/2023 23:00, Time to: 2/9/2023 0:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 23:00, Time to: 2/9/2023 0:00, Produced heat: 3,94, Net Electricity: 0, Production Costs: 394, Produced CO2:169,42</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 0:00, Time to: 2/9/2023 1:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 0:00, Time to: 2/9/2023 1:00, Produced heat: 3,98, Net Electricity: 0, Production Costs: 398, Produced CO2:171,14</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 1:00, Time to: 2/9/2023 2:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 1:00, Time to: 2/9/2023 2:00, Produced heat: 4,08, Net Electricity: 0, Production Costs: 408, Produced CO2:175,44</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 2:00, Time to: 2/9/2023 3:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 2:00, Time to: 2/9/2023 3:00, Produced heat: 4,11, Net Electricity: 0, Production Costs: 411, Produced CO2:176,73</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 3:00, Time to: 2/9/2023 4:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 3:00, Time to: 2/9/2023 4:00, Produced heat: 4,1, Net Electricity: 0, Production Costs: 410, Produced CO2:176,3</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 4:00, Time to: 2/9/2023 5:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 4:00, Time to: 2/9/2023 5:00, Produced heat: 4,56, Net Electricity: 0, Production Costs: 456, Produced CO2:196,08</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 5:00, Time to: 2/9/2023 6:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 5:00, Time to: 2/9/2023 6:00, Produced heat: 4,85, Net Electricity: 0, Production Costs: 485, Produced CO2:208,55</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 6:00, Time to: 2/9/2023 7:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 6:00, Time to: 2/9/2023 7:00, Produced heat: 4,91, Net Electricity: 0, Production Costs: 491, Produced CO2:211,13</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 7:00, Time to: 2/9/2023 8:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 7:00, Time to: 2/9/2023 8:00, Produced heat: 4,19, Net Electricity: 0, Production Costs: 419, Produced CO2:180,17</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 8:00, Time to: 2/9/2023 9:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 8:00, Time to: 2/9/2023 9:00, Produced heat: 4,04, Net Electricity: 0, Production Costs: 404, Produced CO2:173,72</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 9:00, Time to: 2/9/2023 10:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 9:00, Time to: 2/9/2023 10:00, Produced heat: 4,11, Net Electricity: 0, Production Costs: 411, Produced CO2:176,73</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 10:00, Time to: 2/9/2023 11:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 10:00, Time to: 2/9/2023 11:00, Produced heat: 4,04, Net Electricity: 0, Production Costs: 404, Produced CO2:173,72</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 11:00, Time to: 2/9/2023 12:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 11:00, Time to: 2/9/2023 12:00, Produced heat: 3,39, Net Electricity: 0, Production Costs: 339, Produced CO2:145,77</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 12:00, Time to: 2/9/2023 13:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 12:00, Time to: 2/9/2023 13:00, Produced heat: 2,79, Net Electricity: 0, Production Costs: 279, Produced CO2:119,97</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 13:00, Time to: 2/9/2023 14:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 13:00, Time to: 2/9/2023 14:00, Produced heat: 2,62, Net Electricity: 0, Production Costs: 262, Produced CO2:112,66</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 14:00, Time to: 2/9/2023 15:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 14:00, Time to: 2/9/2023 15:00, Produced heat: 2,68, Net Electricity: 0, Production Costs: 268, Produced CO2:115,24</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 15:00, Time to: 2/9/2023 16:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 15:00, Time to: 2/9/2023 16:00, Produced heat: 3,18, Net Electricity: 0, Production Costs: 318, Produced CO2:136,74</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 16:00, Time to: 2/9/2023 17:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 16:00, Time to: 2/9/2023 17:00, Produced heat: 3,41, Net Electricity: 0, Production Costs: 341, Produced CO2:146,63</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 17:00, Time to: 2/9/2023 18:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 17:00, Time to: 2/9/2023 18:00, Produced heat: 3,58, Net Electricity: 0, Production Costs: 358, Produced CO2:153,94</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 18:00, Time to: 2/9/2023 19:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 18:00, Time to: 2/9/2023 19:00, Produced heat: 3,05, Net Electricity: 0, Production Costs: 305, Produced CO2:131,15</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 19:00, Time to: 2/9/2023 20:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 19:00, Time to: 2/9/2023 20:00, Produced heat: 3,12, Net Electricity: 0, Production Costs: 312, Produced CO2:134,16</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/9/2023 19:00, Time to: 2/9/2023 20:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 20:00, Time to: 2/9/2023 21:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 20:00, Time to: 2/9/2023 21:00, Produced heat: 3,26, Net Electricity: 0, Production Costs: 326, Produced CO2:140,18</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 21:00, Time to: 2/9/2023 22:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 21:00, Time to: 2/9/2023 22:00, Produced heat: 3,23, Net Electricity: 0, Production Costs: 323, Produced CO2:138,89</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 22:00, Time to: 2/9/2023 23:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 22:00, Time to: 2/9/2023 23:00, Produced heat: 3,26, Net Electricity: 0, Production Costs: 326, Produced CO2:140,18</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/9/2023 23:00, Time to: 2/10/2023 0:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 23:00, Time to: 2/10/2023 0:00, Produced heat: 3,18, Net Electricity: 0, Production Costs: 318, Produced CO2:136,74</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 0:00, Time to: 2/10/2023 1:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 0:00, Time to: 2/10/2023 1:00, Produced heat: 3,2, Net Electricity: 0, Production Costs: 320, Produced CO2:137,6</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/10/2023 0:00, Time to: 2/10/2023 1:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 1:00, Time to: 2/10/2023 2:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 1:00, Time to: 2/10/2023 2:00, Produced heat: 3,2, Net Electricity: 0, Production Costs: 320, Produced CO2:137,6</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/10/2023 1:00, Time to: 2/10/2023 2:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 2:00, Time to: 2/10/2023 3:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 2:00, Time to: 2/10/2023 3:00, Produced heat: 3,22, Net Electricity: 0, Production Costs: 322, Produced CO2:138,46</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 3:00, Time to: 2/10/2023 4:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 3:00, Time to: 2/10/2023 4:00, Produced heat: 3,35, Net Electricity: 0, Production Costs: 335, Produced CO2:144,05</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 4:00, Time to: 2/10/2023 5:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 4:00, Time to: 2/10/2023 5:00, Produced heat: 4,13, Net Electricity: 0, Production Costs: 413, Produced CO2:177,59</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 5:00, Time to: 2/10/2023 6:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 5:00, Time to: 2/10/2023 6:00, Produced heat: 4,3, Net Electricity: 0, Production Costs: 430, Produced CO2:184,9</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 6:00, Time to: 2/10/2023 7:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 6:00, Time to: 2/10/2023 7:00, Produced heat: 4,51, Net Electricity: 0, Production Costs: 451, Produced CO2:193,93</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 7:00, Time to: 2/10/2023 8:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 7:00, Time to: 2/10/2023 8:00, Produced heat: 4,02, Net Electricity: 0, Production Costs: 402, Produced CO2:172,86</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 8:00, Time to: 2/10/2023 9:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 8:00, Time to: 2/10/2023 9:00, Produced heat: 4,04, Net Electricity: 0, Production Costs: 404, Produced CO2:173,72</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 9:00, Time to: 2/10/2023 10:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 9:00, Time to: 2/10/2023 10:00, Produced heat: 3,84, Net Electricity: 0, Production Costs: 384, Produced CO2:165,12</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/10/2023 9:00, Time to: 2/10/2023 10:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 10:00, Time to: 2/10/2023 11:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 10:00, Time to: 2/10/2023 11:00, Produced heat: 3,66, Net Electricity: 0, Production Costs: 366, Produced CO2:157,38</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 11:00, Time to: 2/10/2023 12:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 11:00, Time to: 2/10/2023 12:00, Produced heat: 3,43, Net Electricity: 0, Production Costs: 343, Produced CO2:147,49</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 12:00, Time to: 2/10/2023 13:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 12:00, Time to: 2/10/2023 13:00, Produced heat: 3,17, Net Electricity: 0, Production Costs: 317, Produced CO2:136,31</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 13:00, Time to: 2/10/2023 14:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 13:00, Time to: 2/10/2023 14:00, Produced heat: 3,12, Net Electricity: 0, Production Costs: 312, Produced CO2:134,16</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/10/2023 13:00, Time to: 2/10/2023 14:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 14:00, Time to: 2/10/2023 15:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 14:00, Time to: 2/10/2023 15:00, Produced heat: 3,3, Net Electricity: 0, Production Costs: 330, Produced CO2:141,9</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 15:00, Time to: 2/10/2023 16:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 15:00, Time to: 2/10/2023 16:00, Produced heat: 3,74, Net Electricity: 0, Production Costs: 374, Produced CO2:160,82</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 16:00, Time to: 2/10/2023 17:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 16:00, Time to: 2/10/2023 17:00, Produced heat: 3,88, Net Electricity: 0, Production Costs: 388, Produced CO2:166,84</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/10/2023 16:00, Time to: 2/10/2023 17:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 17:00, Time to: 2/10/2023 18:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 17:00, Time to: 2/10/2023 18:00, Produced heat: 3,85, Net Electricity: 0, Production Costs: 385, Produced CO2:165,55</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 18:00, Time to: 2/10/2023 19:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 18:00, Time to: 2/10/2023 19:00, Produced heat: 3,32, Net Electricity: 0, Production Costs: 332, Produced CO2:142,76</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/10/2023 18:00, Time to: 2/10/2023 19:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 19:00, Time to: 2/10/2023 20:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 19:00, Time to: 2/10/2023 20:00, Produced heat: 3,22, Net Electricity: 0, Production Costs: 322, Produced CO2:138,46</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 20:00, Time to: 2/10/2023 21:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 20:00, Time to: 2/10/2023 21:00, Produced heat: 3,18, Net Electricity: 0, Production Costs: 318, Produced CO2:136,74</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 21:00, Time to: 2/10/2023 22:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 21:00, Time to: 2/10/2023 22:00, Produced heat: 3,08, Net Electricity: 0, Production Costs: 308, Produced CO2:132,44</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/10/2023 21:00, Time to: 2/10/2023 22:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 22:00, Time to: 2/10/2023 23:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 22:00, Time to: 2/10/2023 23:00, Produced heat: 2,96, Net Electricity: 0, Production Costs: 296, Produced CO2:127,28</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/10/2023 22:00, Time to: 2/10/2023 23:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/10/2023 23:00, Time to: 2/11/2023 0:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 23:00, Time to: 2/11/2023 0:00, Produced heat: 2,86, Net Electricity: 0, Production Costs: 286, Produced CO2:122,98</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 0:00, Time to: 2/11/2023 1:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 0:00, Time to: 2/11/2023 1:00, Produced heat: 2,75, Net Electricity: 0, Production Costs: 275, Produced CO2:118,25</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 1:00, Time to: 2/11/2023 2:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 1:00, Time to: 2/11/2023 2:00, Produced heat: 2,71, Net Electricity: 0, Production Costs: 271, Produced CO2:116,53</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 2:00, Time to: 2/11/2023 3:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 2:00, Time to: 2/11/2023 3:00, Produced heat: 2,77, Net Electricity: 0, Production Costs: 277, Produced CO2:119,11</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 3:00, Time to: 2/11/2023 4:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 3:00, Time to: 2/11/2023 4:00, Produced heat: 2,83, Net Electricity: 0, Production Costs: 283, Produced CO2:121,69</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 4:00, Time to: 2/11/2023 5:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 4:00, Time to: 2/11/2023 5:00, Produced heat: 3,44, Net Electricity: 0, Production Costs: 344, Produced CO2:147,92</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/11/2023 4:00, Time to: 2/11/2023 5:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 5:00, Time to: 2/11/2023 6:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 5:00, Time to: 2/11/2023 6:00, Produced heat: 3,36, Net Electricity: 0, Production Costs: 336, Produced CO2:144,48</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/11/2023 5:00, Time to: 2/11/2023 6:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 6:00, Time to: 2/11/2023 7:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 6:00, Time to: 2/11/2023 7:00, Produced heat: 3,36, Net Electricity: 0, Production Costs: 336, Produced CO2:144,48</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/11/2023 6:00, Time to: 2/11/2023 7:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 7:00, Time to: 2/11/2023 8:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 7:00, Time to: 2/11/2023 8:00, Produced heat: 3,01, Net Electricity: 0, Production Costs: 301, Produced CO2:129,43</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 8:00, Time to: 2/11/2023 9:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 8:00, Time to: 2/11/2023 9:00, Produced heat: 3,22, Net Electricity: 0, Production Costs: 322, Produced CO2:138,46</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 9:00, Time to: 2/11/2023 10:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 9:00, Time to: 2/11/2023 10:00, Produced heat: 3,29, Net Electricity: 0, Production Costs: 329, Produced CO2:141,47</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 10:00, Time to: 2/11/2023 11:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 10:00, Time to: 2/11/2023 11:00, Produced heat: 3,09, Net Electricity: 0, Production Costs: 309, Produced CO2:132,87</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 11:00, Time to: 2/11/2023 12:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 11:00, Time to: 2/11/2023 12:00, Produced heat: 3,02, Net Electricity: 0, Production Costs: 302, Produced CO2:129,86</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 12:00, Time to: 2/11/2023 13:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 12:00, Time to: 2/11/2023 13:00, Produced heat: 2,9, Net Electricity: 0, Production Costs: 290, Produced CO2:124,7</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 13:00, Time to: 2/11/2023 14:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 13:00, Time to: 2/11/2023 14:00, Produced heat: 2,8, Net Electricity: 0, Production Costs: 280, Produced CO2:120,4</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 14:00, Time to: 2/11/2023 15:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 14:00, Time to: 2/11/2023 15:00, Produced heat: 2,98, Net Electricity: 0, Production Costs: 298, Produced CO2:128,14</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 15:00, Time to: 2/11/2023 16:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 15:00, Time to: 2/11/2023 16:00, Produced heat: 2,6, Net Electricity: 0, Production Costs: 260, Produced CO2:111,8</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 16:00, Time to: 2/11/2023 17:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 16:00, Time to: 2/11/2023 17:00, Produced heat: 2,69, Net Electricity: 0, Production Costs: 269, Produced CO2:115,67</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 17:00, Time to: 2/11/2023 18:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 17:00, Time to: 2/11/2023 18:00, Produced heat: 2,47, Net Electricity: 0, Production Costs: 247, Produced CO2:106,21</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 18:00, Time to: 2/11/2023 19:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 18:00, Time to: 2/11/2023 19:00, Produced heat: 2,67, Net Electricity: 0, Production Costs: 267, Produced CO2:114,81</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 19:00, Time to: 2/11/2023 20:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 19:00, Time to: 2/11/2023 20:00, Produced heat: 2,7, Net Electricity: 0, Production Costs: 270, Produced CO2:116,1</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 20:00, Time to: 2/11/2023 21:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 20:00, Time to: 2/11/2023 21:00, Produced heat: 2,65, Net Electricity: 0, Production Costs: 265, Produced CO2:113,95</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 21:00, Time to: 2/11/2023 22:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 21:00, Time to: 2/11/2023 22:00, Produced heat: 2,56, Net Electricity: 0, Production Costs: 256, Produced CO2:110,08</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 22:00, Time to: 2/11/2023 23:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 22:00, Time to: 2/11/2023 23:00, Produced heat: 2,63, Net Electricity: 0, Production Costs: 263, Produced CO2:113,09</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/11/2023 22:00, Time to: 2/11/2023 23:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/11/2023 23:00, Time to: 2/12/2023 0:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 23:00, Time to: 2/12/2023 0:00, Produced heat: 2,49, Net Electricity: 0, Production Costs: 249, Produced CO2:107,07</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 0:00, Time to: 2/12/2023 1:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 0:00, Time to: 2/12/2023 1:00, Produced heat: 2,45, Net Electricity: 0, Production Costs: 245, Produced CO2:105,35</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 1:00, Time to: 2/12/2023 2:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 1:00, Time to: 2/12/2023 2:00, Produced heat: 2,45, Net Electricity: 0, Production Costs: 245, Produced CO2:105,35</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 2:00, Time to: 2/12/2023 3:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 2:00, Time to: 2/12/2023 3:00, Produced heat: 2,46, Net Electricity: 0, Production Costs: 246, Produced CO2:105,78</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 3:00, Time to: 2/12/2023 4:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 3:00, Time to: 2/12/2023 4:00, Produced heat: 2,64, Net Electricity: 0, Production Costs: 264, Produced CO2:113,52</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 4:00, Time to: 2/12/2023 5:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 4:00, Time to: 2/12/2023 5:00, Produced heat: 3,15, Net Electricity: 0, Production Costs: 315, Produced CO2:135,45</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 5:00, Time to: 2/12/2023 6:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 5:00, Time to: 2/12/2023 6:00, Produced heat: 3,14, Net Electricity: 0, Production Costs: 314, Produced CO2:135,02</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 6:00, Time to: 2/12/2023 7:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 6:00, Time to: 2/12/2023 7:00, Produced heat: 3,12, Net Electricity: 0, Production Costs: 312, Produced CO2:134,16</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/12/2023 6:00, Time to: 2/12/2023 7:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 7:00, Time to: 2/12/2023 8:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 7:00, Time to: 2/12/2023 8:00, Produced heat: 2,67, Net Electricity: 0, Production Costs: 267, Produced CO2:114,81</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 8:00, Time to: 2/12/2023 9:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 8:00, Time to: 2/12/2023 9:00, Produced heat: 2,91, Net Electricity: 0, Production Costs: 291, Produced CO2:125,13</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 9:00, Time to: 2/12/2023 10:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 9:00, Time to: 2/12/2023 10:00, Produced heat: 3,11, Net Electricity: 0, Production Costs: 311, Produced CO2:133,73</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 10:00, Time to: 2/12/2023 11:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 10:00, Time to: 2/12/2023 11:00, Produced heat: 2,99, Net Electricity: 0, Production Costs: 299, Produced CO2:128,57</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 11:00, Time to: 2/12/2023 12:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 11:00, Time to: 2/12/2023 12:00, Produced heat: 2,81, Net Electricity: 0, Production Costs: 281, Produced CO2:120,83</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 12:00, Time to: 2/12/2023 13:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 12:00, Time to: 2/12/2023 13:00, Produced heat: 2,68, Net Electricity: 0, Production Costs: 268, Produced CO2:115,24</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 13:00, Time to: 2/12/2023 14:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 13:00, Time to: 2/12/2023 14:00, Produced heat: 2,66, Net Electricity: 0, Production Costs: 266, Produced CO2:114,38</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 14:00, Time to: 2/12/2023 15:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 14:00, Time to: 2/12/2023 15:00, Produced heat: 2,93, Net Electricity: 0, Production Costs: 293, Produced CO2:125,99</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 15:00, Time to: 2/12/2023 16:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 15:00, Time to: 2/12/2023 16:00, Produced heat: 2,88, Net Electricity: 0, Production Costs: 288, Produced CO2:123,84</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 16:00, Time to: 2/12/2023 17:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 16:00, Time to: 2/12/2023 17:00, Produced heat: 2,85, Net Electricity: 0, Production Costs: 285, Produced CO2:122,55</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 17:00, Time to: 2/12/2023 18:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 17:00, Time to: 2/12/2023 18:00, Produced heat: 2,54, Net Electricity: 0, Production Costs: 254, Produced CO2:109,22</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 18:00, Time to: 2/12/2023 19:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 18:00, Time to: 2/12/2023 19:00, Produced heat: 2,7, Net Electricity: 0, Production Costs: 270, Produced CO2:116,1</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 19:00, Time to: 2/12/2023 20:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 19:00, Time to: 2/12/2023 20:00, Produced heat: 2,57, Net Electricity: 0, Production Costs: 257, Produced CO2:110,51</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 20:00, Time to: 2/12/2023 21:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 20:00, Time to: 2/12/2023 21:00, Produced heat: 2,5, Net Electricity: 0, Production Costs: 250, Produced CO2:107,5</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 21:00, Time to: 2/12/2023 22:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 21:00, Time to: 2/12/2023 22:00, Produced heat: 2,49, Net Electricity: 0, Production Costs: 249, Produced CO2:107,07</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 22:00, Time to: 2/12/2023 23:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 22:00, Time to: 2/12/2023 23:00, Produced heat: 2,49, Net Electricity: 0, Production Costs: 249, Produced CO2:107,07</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/12/2023 23:00, Time to: 2/13/2023 0:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 23:00, Time to: 2/13/2023 0:00, Produced heat: 2,43, Net Electricity: 0, Production Costs: 243, Produced CO2:104,49</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 0:00, Time to: 2/13/2023 1:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 0:00, Time to: 2/13/2023 1:00, Produced heat: 2,48, Net Electricity: 0, Production Costs: 248, Produced CO2:106,64</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 1:00, Time to: 2/13/2023 2:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 1:00, Time to: 2/13/2023 2:00, Produced heat: 2,58, Net Electricity: 0, Production Costs: 258, Produced CO2:110,94</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 2:00, Time to: 2/13/2023 3:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 2:00, Time to: 2/13/2023 3:00, Produced heat: 2,66, Net Electricity: 0, Production Costs: 266, Produced CO2:114,38</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 3:00, Time to: 2/13/2023 4:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 3:00, Time to: 2/13/2023 4:00, Produced heat: 2,79, Net Electricity: 0, Production Costs: 279, Produced CO2:119,97</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 4:00, Time to: 2/13/2023 5:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 4:00, Time to: 2/13/2023 5:00, Produced heat: 3,36, Net Electricity: 0, Production Costs: 336, Produced CO2:144,48</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/13/2023 4:00, Time to: 2/13/2023 5:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 5:00, Time to: 2/13/2023 6:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 5:00, Time to: 2/13/2023 6:00, Produced heat: 3,49, Net Electricity: 0, Production Costs: 349, Produced CO2:150,07</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 6:00, Time to: 2/13/2023 7:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 6:00, Time to: 2/13/2023 7:00, Produced heat: 3,74, Net Electricity: 0, Production Costs: 374, Produced CO2:160,82</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 7:00, Time to: 2/13/2023 8:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 7:00, Time to: 2/13/2023 8:00, Produced heat: 3,24, Net Electricity: 0, Production Costs: 324, Produced CO2:139,32</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/13/2023 7:00, Time to: 2/13/2023 8:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 8:00, Time to: 2/13/2023 9:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 8:00, Time to: 2/13/2023 9:00, Produced heat: 3,34, Net Electricity: 0, Production Costs: 334, Produced CO2:143,62</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 9:00, Time to: 2/13/2023 10:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 9:00, Time to: 2/13/2023 10:00, Produced heat: 3,26, Net Electricity: 0, Production Costs: 326, Produced CO2:140,18</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 10:00, Time to: 2/13/2023 11:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 10:00, Time to: 2/13/2023 11:00, Produced heat: 3,13, Net Electricity: 0, Production Costs: 313, Produced CO2:134,59</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 11:00, Time to: 2/13/2023 12:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 11:00, Time to: 2/13/2023 12:00, Produced heat: 2,86, Net Electricity: 0, Production Costs: 286, Produced CO2:122,98</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 12:00, Time to: 2/13/2023 13:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 12:00, Time to: 2/13/2023 13:00, Produced heat: 2,61, Net Electricity: 0, Production Costs: 261, Produced CO2:112,23</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 13:00, Time to: 2/13/2023 14:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 13:00, Time to: 2/13/2023 14:00, Produced heat: 2,66, Net Electricity: 0, Production Costs: 266, Produced CO2:114,38</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 14:00, Time to: 2/13/2023 15:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 14:00, Time to: 2/13/2023 15:00, Produced heat: 2,74, Net Electricity: 0, Production Costs: 274, Produced CO2:117,82</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 15:00, Time to: 2/13/2023 16:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 15:00, Time to: 2/13/2023 16:00, Produced heat: 3,06, Net Electricity: 0, Production Costs: 306, Produced CO2:131,58</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 16:00, Time to: 2/13/2023 17:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 16:00, Time to: 2/13/2023 17:00, Produced heat: 3,11, Net Electricity: 0, Production Costs: 311, Produced CO2:133,73</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 17:00, Time to: 2/13/2023 18:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 17:00, Time to: 2/13/2023 18:00, Produced heat: 3,21, Net Electricity: 0, Production Costs: 321, Produced CO2:138,03</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 18:00, Time to: 2/13/2023 19:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 18:00, Time to: 2/13/2023 19:00, Produced heat: 2,87, Net Electricity: 0, Production Costs: 287, Produced CO2:123,41</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 19:00, Time to: 2/13/2023 20:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 19:00, Time to: 2/13/2023 20:00, Produced heat: 2,66, Net Electricity: 0, Production Costs: 266, Produced CO2:114,38</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 20:00, Time to: 2/13/2023 21:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 20:00, Time to: 2/13/2023 21:00, Produced heat: 2,6, Net Electricity: 0, Production Costs: 260, Produced CO2:111,8</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 21:00, Time to: 2/13/2023 22:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 21:00, Time to: 2/13/2023 22:00, Produced heat: 2,62, Net Electricity: 0, Production Costs: 262, Produced CO2:112,66</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 22:00, Time to: 2/13/2023 23:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 22:00, Time to: 2/13/2023 23:00, Produced heat: 2,55, Net Electricity: 0, Production Costs: 255, Produced CO2:109,65</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/13/2023 22:00, Time to: 2/13/2023 23:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/13/2023 23:00, Time to: 2/14/2023 0:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 23:00, Time to: 2/14/2023 0:00, Produced heat: 2,59, Net Electricity: 0, Production Costs: 259, Produced CO2:111,37</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/13/2023 23:00, Time to: 2/14/2023 0:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 0:00, Time to: 2/14/2023 1:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 0:00, Time to: 2/14/2023 1:00, Produced heat: 2,55, Net Electricity: 0, Production Costs: 255, Produced CO2:109,65</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/14/2023 0:00, Time to: 2/14/2023 1:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 1:00, Time to: 2/14/2023 2:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 1:00, Time to: 2/14/2023 2:00, Produced heat: 2,73, Net Electricity: 0, Production Costs: 273, Produced CO2:117,39</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 2:00, Time to: 2/14/2023 3:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 2:00, Time to: 2/14/2023 3:00, Produced heat: 2,72, Net Electricity: 0, Production Costs: 272, Produced CO2:116,96</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 3:00, Time to: 2/14/2023 4:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 3:00, Time to: 2/14/2023 4:00, Produced heat: 2,78, Net Electricity: 0, Production Costs: 278, Produced CO2:119,54</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 4:00, Time to: 2/14/2023 5:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 4:00, Time to: 2/14/2023 5:00, Produced heat: 3,42, Net Electricity: 0, Production Costs: 342, Produced CO2:147,06</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 5:00, Time to: 2/14/2023 6:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 5:00, Time to: 2/14/2023 6:00, Produced heat: 3,61, Net Electricity: 0, Production Costs: 361, Produced CO2:155,23</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 6:00, Time to: 2/14/2023 7:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 6:00, Time to: 2/14/2023 7:00, Produced heat: 3,8, Net Electricity: 0, Production Costs: 380, Produced CO2:163,4</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/14/2023 6:00, Time to: 2/14/2023 7:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 7:00, Time to: 2/14/2023 8:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 7:00, Time to: 2/14/2023 8:00, Produced heat: 3,32, Net Electricity: 0, Production Costs: 332, Produced CO2:142,76</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/14/2023 7:00, Time to: 2/14/2023 8:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 8:00, Time to: 2/14/2023 9:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 8:00, Time to: 2/14/2023 9:00, Produced heat: 3,46, Net Electricity: 0, Production Costs: 346, Produced CO2:148,78</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 9:00, Time to: 2/14/2023 10:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 9:00, Time to: 2/14/2023 10:00, Produced heat: 3,42, Net Electricity: 0, Production Costs: 342, Produced CO2:147,06</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 10:00, Time to: 2/14/2023 11:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 10:00, Time to: 2/14/2023 11:00, Produced heat: 3,52, Net Electricity: 0, Production Costs: 352, Produced CO2:151,36</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/14/2023 10:00, Time to: 2/14/2023 11:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 11:00, Time to: 2/14/2023 12:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 11:00, Time to: 2/14/2023 12:00, Produced heat: 3,48, Net Electricity: 0, Production Costs: 348, Produced CO2:149,64</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/14/2023 11:00, Time to: 2/14/2023 12:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 12:00, Time to: 2/14/2023 13:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 12:00, Time to: 2/14/2023 13:00, Produced heat: 3,48, Net Electricity: 0, Production Costs: 348, Produced CO2:149,64</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/14/2023 12:00, Time to: 2/14/2023 13:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 13:00, Time to: 2/14/2023 14:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 13:00, Time to: 2/14/2023 14:00, Produced heat: 3,4, Net Electricity: 0, Production Costs: 340, Produced CO2:146,2</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/14/2023 13:00, Time to: 2/14/2023 14:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 14:00, Time to: 2/14/2023 15:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 14:00, Time to: 2/14/2023 15:00, Produced heat: 3,04, Net Electricity: 0, Production Costs: 304, Produced CO2:130,72</ListBoxItem>
-										<ListBoxItem> Model Name:Oil boiler, Time from: 2/14/2023 14:00, Time to: 2/14/2023 15:00, Produced heat: 0, Net Electricity: 0, Production Costs: 0, Produced CO2:0</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 15:00, Time to: 2/14/2023 16:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 15:00, Time to: 2/14/2023 16:00, Produced heat: 3,49, Net Electricity: 0, Production Costs: 349, Produced CO2:150,07</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 16:00, Time to: 2/14/2023 17:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 16:00, Time to: 2/14/2023 17:00, Produced heat: 3,47, Net Electricity: 0, Production Costs: 347, Produced CO2:149,21</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 17:00, Time to: 2/14/2023 18:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 17:00, Time to: 2/14/2023 18:00, Produced heat: 3,43, Net Electricity: 0, Production Costs: 343, Produced CO2:147,49</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 18:00, Time to: 2/14/2023 19:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 18:00, Time to: 2/14/2023 19:00, Produced heat: 2,93, Net Electricity: 0, Production Costs: 293, Produced CO2:125,99</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 19:00, Time to: 2/14/2023 20:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 19:00, Time to: 2/14/2023 20:00, Produced heat: 2,78, Net Electricity: 0, Production Costs: 278, Produced CO2:119,54</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 20:00, Time to: 2/14/2023 21:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 20:00, Time to: 2/14/2023 21:00, Produced heat: 2,91, Net Electricity: 0, Production Costs: 291, Produced CO2:125,13</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 21:00, Time to: 2/14/2023 22:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 21:00, Time to: 2/14/2023 22:00, Produced heat: 2,74, Net Electricity: 0, Production Costs: 274, Produced CO2:117,82</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 22:00, Time to: 2/14/2023 23:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 22:00, Time to: 2/14/2023 23:00, Produced heat: 2,81, Net Electricity: 0, Production Costs: 281, Produced CO2:120,83</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Motor, Time from: 2/14/2023 23:00, Time to: 2/15/2023 0:00, Produced heat: 3,6, Net Electricity: 2,7, Production Costs: 1100, Produced CO2:640</ListBoxItem>
-										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 23:00, Time to: 2/15/2023 0:00, Produced heat: 2,75, Net Electricity: 0, Production Costs: 275, Produced CO2:118,25</ListBoxItem>
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 1:00, Time to: 2/8/2023 2:00, Produced heat: 6,85, Net Electricity: 0, Production Costs: 325, Produced CO2:139,75</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 2:00, Time to: 2/8/2023 3:00, Produced heat: 6,98, Net Electricity: 0, Production Costs: 338, Produced CO2:145,34</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 3:00, Time to: 2/8/2023 4:00, Produced heat: 7, Net Electricity: 0, Production Costs: 344, Produced CO2:147,92</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 4:00, Time to: 2/8/2023 5:00, Produced heat: 7,7, Net Electricity: 0, Production Costs: 412, Produced CO2:177,16</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 5:00, Time to: 2/8/2023 6:00, Produced heat: 7,86, Net Electricity: 0, Production Costs: 425, Produced CO2:182,75</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 6:00, Time to: 2/8/2023 7:00, Produced heat: 8,15, Net Electricity: 0, Production Costs: 455, Produced CO2:195,65</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 7:00, Time to: 2/8/2023 8:00, Produced heat: 7,62, Net Electricity: 0, Production Costs: 402, Produced CO2:172,86</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 8:00, Time to: 2/8/2023 9:00, Produced heat: 7,55, Net Electricity: 0, Production Costs: 395, Produced CO2:169,85</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 9:00, Time to: 2/8/2023 10:00, Produced heat: 7,6, Net Electricity: 0, Production Costs: 400, Produced CO2:172,00</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 10:00, Time to: 2/8/2023 11:00, Produced heat: 7,75, Net Electricity: 0, Production Costs: 415, Produced CO2:178,45</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 11:00, Time to: 2/8/2023 12:00, Produced heat: 7,06, Net Electricity: 0, Production Costs: 346, Produced CO2:148,78</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 12:00, Time to: 2/8/2023 13:00, Produced heat: 6,68, Net Electricity: 0, Production Costs: 308, Produced CO2:132,44</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 13:00, Time to: 2/8/2023 14:00, Produced heat: 6,73, Net Electricity: 0, Production Costs: 313, Produced CO2:134,59</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 14:00, Time to: 2/8/2023 15:00, Produced heat: 6,84, Net Electricity: 0, Production Costs: 324, Produced CO2:139,32</ListBoxItem>
 
 
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 15:00, Time to: 2/8/2023 16:00, Produced heat: 7,3, Net Electricity: 0, Production Costs: 370, Produced CO2:159,1</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 16:00, Time to: 2/8/2023 17:00, Produced heat: 7,39, Net Electricity: 0, Production Costs: 379, Produced CO2:162,97</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 17:00, Time to: 2/8/2023 18:00, Produced heat: 7,69, Net Electricity: 0, Production Costs: 408, Produced CO2:175,44</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 18:00, Time to: 2/8/2023 19:00, Produced heat: 7,38, Net Electricity: 0, Production Costs: 378, Produced CO2:162,54</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 19:00, Time to: 2/8/2023 20:00, Produced heat: 7,4, Net Electricity: 0, Production Costs: 380, Produced CO2:163,40</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 20:00, Time to: 2/8/2023 21:00, Produced heat: 7,56, Net Electricity: 0, Production Costs: 396, Produced CO2:170,28</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 21:00, Time to: 2/8/2023 22:00, Produced heat: 7,69, Net Electricity: 0, Production Costs: 409, Produced CO2:175,878</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 22:00, Time to: 2/8/2023 23:00, Produced heat: 7,66, Net Electricity: 0, Production Costs: 406, Produced CO2:174,58</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 23:00, Time to: 2/9/2023 0:00, Produced heat: 7,54, Net Electricity: 0, Production Costs: 394, Produced CO2:169,42</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 0:00, Time to: 2/9/2023 1:00, Produced heat: 7,68, Net Electricity: 0, Production Costs: 398, Produced CO2:171,14</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 1:00, Time to: 2/9/2023 2:00, Produced heat: 7,68, Net Electricity: 0, Production Costs: 408, Produced CO2:175,44</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 2:00, Time to: 2/9/2023 3:00, Produced heat: 7,71, Net Electricity: 0, Production Costs: 411, Produced CO2:176,73</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 3:00, Time to: 2/9/2023 4:00, Produced heat: 7,7, Net Electricity: 0, Production Costs: 410, Produced CO2:176,30</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 4:00, Time to: 2/9/2023 5:00, Produced heat: 8,16, Net Electricity: 0, Production Costs: 456, Produced CO2:196,08</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 5:00, Time to: 2/9/2023 6:00, Produced heat: 8,65, Net Electricity: 0, Production Costs: 485, Produced CO2:208,550</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 6:00, Time to: 2/9/2023 7:00, Produced heat: 8,51, Net Electricity: 0, Production Costs: 491, Produced CO2:211,13</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 7:00, Time to: 2/9/2023 8:00, Produced heat: 7,79, Net Electricity: 0, Production Costs: 419, Produced CO2:180,17</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 8:00, Time to: 2/9/2023 9:00, Produced heat: 7,64, Net Electricity: 0, Production Costs: 404, Produced CO2:173,72</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 9:00, Time to: 2/9/2023 10:00, Produced heat: 7,61, Net Electricity: 0, Production Costs: 411, Produced CO2:176,73</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 10:00, Time to: 2/9/2023 11:00, Produced heat: 7,64, Net Electricity: 0, Production Costs: 404, Produced CO2:173,72</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 11:00, Time to: 2/9/2023 12:00, Produced heat: 6,99, Net Electricity: 0, Production Costs: 339, Produced CO2:145,77</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 12:00, Time to: 2/9/2023 13:00, Produced heat: 6,39, Net Electricity: 0, Production Costs: 279, Produced CO2:119,97</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 13:00, Time to: 2/9/2023 14:00, Produced heat: 6,22, Net Electricity: 0, Production Costs: 260, Produced CO2:112,66</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 14:00, Time to: 2/9/2023 15:00, Produced heat: 6,28, Net Electricity: 0, Production Costs: 268, Produced CO2:115,24</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 15:00, Time to: 2/9/2023 16:00, Produced heat: 6,78, Net Electricity: 0, Production Costs: 318, Produced CO2:136,74</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 16:00, Time to: 2/9/2023 17:00, Produced heat: 7,01, Net Electricity: 0, Production Costs: 341, Produced CO2:146,63</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 17:00, Time to: 2/9/2023 18:00, Produced heat: 7,18, Net Electricity: 0, Production Costs: 358, Produced CO2:153,94</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 18:00, Time to: 2/9/2023 19:00, Produced heat: 6,65, Net Electricity: 0, Production Costs: 305, Produced CO2:131,15</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 19:00, Time to: 2/9/2023 20:00, Produced heat: 6,72, Net Electricity: 0, Production Costs: 312, Produced CO2:134,16</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 20:00, Time to: 2/9/2023 21:00, Produced heat: 6,86, Net Electricity: 0, Production Costs: 326, Produced CO2:140,18</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 21:00, Time to: 2/9/2023 22:00, Produced heat: 6,83, Net Electricity: 0, Production Costs: 323, Produced CO2:138,89</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 22:00, Time to: 2/9/2023 23:00, Produced heat: 6,86, Net Electricity: 0, Production Costs: 326, Produced CO2:140,18</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/9/2023 23:00, Time to: 2/10/2023 0:00, Produced heat: 6,78, Net Electricity: 0, Production Costs: 318, Produced CO2:136,74</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 0:00, Time to: 2/10/2023 1:00, Produced heat: 6,8, Net Electricity: 0, Production Costs: 320, Produced CO2:137,60</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 1:00, Time to: 2/10/2023 2:00, Produced heat: 6,8, Net Electricity: 0, Production Costs: 320, Produced CO2:137,60</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 2:00, Time to: 2/10/2023 3:00, Produced heat: 6,82, Net Electricity: 0, Production Costs: 322, Produced CO2:138,46</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 3:00, Time to: 2/10/2023 4:00, Produced heat: 6,95, Net Electricity: 0, Production Costs: 335, Produced CO2:144,05</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 4:00, Time to: 2/10/2023 5:00, Produced heat: 7,73, Net Electricity: 0, Production Costs: 413, Produced CO2:177,59</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 5:00, Time to: 2/10/2023 6:00, Produced heat: 7,9, Net Electricity: 0, Production Costs: 430, Produced CO2:184,90</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 6:00, Time to: 2/10/2023 7:00, Produced heat: 8,11, Net Electricity: 0, Production Costs: 451, Produced CO2:193,93</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 7:00, Time to: 2/10/2023 8:00, Produced heat: 7,62, Net Electricity: 0, Production Costs: 402, Produced CO2:172,86</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 8:00, Time to: 2/10/2023 9:00, Produced heat: 7,64, Net Electricity: 0, Production Costs: 404, Produced CO2:173,72</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 9:00, Time to: 2/10/2023 10:00, Produced heat: 7,44, Net Electricity: 0, Production Costs: 384, Produced CO2:165,12</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 10:00, Time to: 2/10/2023 11:00, Produced heat: 7,26, Net Electricity: 0, Production Costs: 366, Produced CO2:157,38</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 11:00, Time to: 2/10/2023 12:00, Produced heat: 7,03, Net Electricity: 0, Production Costs: 343, Produced CO2:147,49</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 12:00, Time to: 2/10/2023 13:00, Produced heat: 6,77, Net Electricity: 0, Production Costs: 317, Produced CO2:136,31</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 13:00, Time to: 2/10/2023 14:00, Produced heat: 6,72, Net Electricity: 0, Production Costs: 312, Produced CO2:134,16</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 14:00, Time to: 2/10/2023 15:00, Produced heat: 6,9, Net Electricity: 0, Production Costs: 330, Produced CO2:141,9</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 15:00, Time to: 2/10/2023 16:00, Produced heat: 7,34, Net Electricity: 0, Production Costs: 374, Produced CO2:160,82</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 16:00, Time to: 2/10/2023 17:00, Produced heat: 7,48, Net Electricity: 0, Production Costs: 388, Produced CO2:166,84</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 17:00, Time to: 2/10/2023 18:00, Produced heat: 7,45, Net Electricity: 0, Production Costs: 385, Produced CO2:165,55</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 18:00, Time to: 2/10/2023 19:00, Produced heat: 7,76, Net Electricity: 0, Production Costs: 332, Produced CO2:142,76</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 19:00, Time to: 2/10/2023 20:00, Produced heat: 6,82, Net Electricity: 0, Production Costs: 322, Produced CO2:138,46</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 20:00, Time to: 2/10/2023 21:00, Produced heat: 6,78, Net Electricity: 0, Production Costs: 318, Produced CO2:136,74</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 21:00, Time to: 2/10/2023 22:00, Produced heat: 6,68, Net Electricity: 0, Production Costs: 308, Produced CO2:132,44</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 22:00, Time to: 2/10/2023 23:00, Produced heat: 6,56, Net Electricity: 0, Production Costs: 296, Produced CO2:127,28</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/10/2023 23:00, Time to: 2/11/2023 0:00, Produced heat: 6,46, Net Electricity: 0, Production Costs: 286, Produced CO2:122,98</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 0:00, Time to: 2/11/2023 1:00, Produced heat: 6,35, Net Electricity: 0, Production Costs: 275, Produced CO2:118,25</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 1:00, Time to: 2/11/2023 2:00, Produced heat: 6,31, Net Electricity: 0, Production Costs: 271, Produced CO2:116,53</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 2:00, Time to: 2/11/2023 3:00, Produced heat: 6,37, Net Electricity: 0, Production Costs: 277, Produced CO2:119,11</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 3:00, Time to: 2/11/2023 4:00, Produced heat: 6,43, Net Electricity: 0, Production Costs: 283, Produced CO2:121,69</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 4:00, Time to: 2/11/2023 5:00, Produced heat: 7,04, Net Electricity: 0, Production Costs: 344, Produced CO2:147,92</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 5:00, Time to: 2/11/2023 6:00, Produced heat: 6,96, Net Electricity: 0, Production Costs: 336, Produced CO2:144,48</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 6:00, Time to: 2/11/2023 7:00, Produced heat: 6,96, Net Electricity: 0, Production Costs: 336, Produced CO2:144,48</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 7:00, Time to: 2/11/2023 8:00, Produced heat: 6,61, Net Electricity: 0, Production Costs: 301, Produced CO2:129,43</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 8:00, Time to: 2/11/2023 9:00, Produced heat: 6,82, Net Electricity: 0, Production Costs: 322, Produced CO2:138,46</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 9:00, Time to: 2/11/2023 10:00, Produced heat: 6,89, Net Electricity: 0, Production Costs: 329, Produced CO2:141,47</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 10:00, Time to: 2/11/2023 11:00, Produced heat: 6,69, Net Electricity: 0, Production Costs: 309, Produced CO2:132,87</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 11:00, Time to: 2/11/2023 12:00, Produced heat: 6,62, Net Electricity: 0, Production Costs: 302, Produced CO2:129,86</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 12:00, Time to: 2/11/2023 13:00, Produced heat: 6,5, Net Electricity: 0, Production Costs: 290, Produced CO2:124,70</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 13:00, Time to: 2/11/2023 14:00, Produced heat: 6,4, Net Electricity: 0, Production Costs: 280, Produced CO2:120,4</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 14:00, Time to: 2/11/2023 15:00, Produced heat: 6,58, Net Electricity: 0, Production Costs: 298, Produced CO2:128,14</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 15:00, Time to: 2/11/2023 16:00, Produced heat: 6,2, Net Electricity: 0, Production Costs: 260, Produced CO2:111,8</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 16:00, Time to: 2/11/2023 17:00, Produced heat: 6,29, Net Electricity: 0, Production Costs: 269, Produced CO2:115,67</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 17:00, Time to: 2/11/2023 18:00, Produced heat: 6,07, Net Electricity: 0, Production Costs: 247, Produced CO2:106,21</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 18:00, Time to: 2/11/2023 19:00, Produced heat: 6,27, Net Electricity: 0, Production Costs: 267, Produced CO2:114,81</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 19:00, Time to: 2/11/2023 20:00, Produced heat: 6,3, Net Electricity: 0, Production Costs: 270, Produced CO2:116,10</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 20:00, Time to: 2/11/2023 21:00, Produced heat: 6,25, Net Electricity: 0, Production Costs: 265, Produced CO2:113,95</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 21:00, Time to: 2/11/2023 22:00, Produced heat: 6,16, Net Electricity: 0, Production Costs: 256, Produced CO2:110,08</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 22:00, Time to: 2/11/2023 23:00, Produced heat: 6,23, Net Electricity: 0, Production Costs: 263, Produced CO2:113,09</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/11/2023 23:00, Time to: 2/12/2023 0:00, Produced heat: 6,05, Net Electricity: 0, Production Costs: 249, Produced CO2:107,07</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 0:00, Time to: 2/12/2023 1:00, Produced heat: 6,04, Net Electricity: 0, Production Costs: 245, Produced CO2:105,35</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 1:00, Time to: 2/12/2023 2:00, Produced heat: 6,05, Net Electricity: 0, Production Costs: 245, Produced CO2:105,35</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 2:00, Time to: 2/12/2023 3:00, Produced heat: 6,06, Net Electricity: 0, Production Costs: 246, Produced CO2:105,78</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 3:00, Time to: 2/12/2023 4:00, Produced heat: 6,24, Net Electricity: 0, Production Costs: 264, Produced CO2:113,52</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 4:00, Time to: 2/12/2023 5:00, Produced heat: 6,75, Net Electricity: 0, Production Costs: 315, Produced CO2:135,45</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 5:00, Time to: 2/12/2023 6:00, Produced heat: 6,74, Net Electricity: 0, Production Costs: 314, Produced CO2:135,02</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 6:00, Time to: 2/12/2023 7:00, Produced heat: 6,72, Net Electricity: 0, Production Costs: 312, Produced CO2:134,16</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 7:00, Time to: 2/12/2023 8:00, Produced heat: 6,27, Net Electricity: 0, Production Costs: 267, Produced CO2:114,81</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 8:00, Time to: 2/12/2023 9:00, Produced heat: 6,51, Net Electricity: 0, Production Costs: 291, Produced CO2:125,13</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 9:00, Time to: 2/12/2023 10:00, Produced heat: 6,71, Net Electricity: 0, Production Costs: 311, Produced CO2:133,73</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 10:00, Time to: 2/12/2023 11:00, Produced heat: 6,59, Net Electricity: 0, Production Costs: 299, Produced CO2:128,57</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 11:00, Time to: 2/12/2023 12:00, Produced heat: 6,41, Net Electricity: 0, Production Costs: 281, Produced CO2:120,83</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 12:00, Time to: 2/12/2023 13:00, Produced heat: 6,28, Net Electricity: 0, Production Costs: 268, Produced CO2:115,24</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 13:00, Time to: 2/12/2023 14:00, Produced heat: 6,26, Net Electricity: 0, Production Costs: 266, Produced CO2:114,38</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 14:00, Time to: 2/12/2023 15:00, Produced heat: 6,53, Net Electricity: 0, Production Costs: 293, Produced CO2:125,99</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 15:00, Time to: 2/12/2023 16:00, Produced heat: 6,48, Net Electricity: 0, Production Costs: 288, Produced CO2:123,84</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 16:00, Time to: 2/12/2023 17:00, Produced heat: 6,45, Net Electricity: 0, Production Costs: 285, Produced CO2:122,55</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 17:00, Time to: 2/12/2023 18:00, Produced heat: 6,14, Net Electricity: 0, Production Costs: 254, Produced CO2:109,22</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 18:00, Time to: 2/12/2023 19:00, Produced heat: 6,3, Net Electricity: 0, Production Costs: 270, Produced CO2:116,10</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 19:00, Time to: 2/12/2023 20:00, Produced heat: 6,17, Net Electricity: 0, Production Costs: 257, Produced CO2:110,51</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 20:00, Time to: 2/12/2023 21:00, Produced heat: 6,1, Net Electricity: 0, Production Costs: 250, Produced CO2:107,50</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 21:00, Time to: 2/12/2023 22:00, Produced heat: 6,09, Net Electricity: 0, Production Costs: 249, Produced CO2:107,07</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 22:00, Time to: 2/12/2023 23:00, Produced heat: 6,18, Net Electricity: 0, Production Costs: 249, Produced CO2:107,07</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/12/2023 23:00, Time to: 2/13/2023 0:00, Produced heat: 6,03, Net Electricity: 0, Production Costs: 243, Produced CO2:104,49</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 0:00, Time to: 2/13/2023 1:00, Produced heat: 6,08, Net Electricity: 0, Production Costs: 248, Produced CO2:106,64</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 1:00, Time to: 2/13/2023 2:00, Produced heat: 6,18, Net Electricity: 0, Production Costs: 258, Produced CO2:110,94</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 2:00, Time to: 2/13/2023 3:00, Produced heat: 6,26, Net Electricity: 0, Production Costs: 266, Produced CO2:114,38</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 3:00, Time to: 2/13/2023 4:00, Produced heat: 6,39, Net Electricity: 0, Production Costs: 279, Produced CO2:119,97</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 4:00, Time to: 2/13/2023 5:00, Produced heat: 6,96, Net Electricity: 0, Production Costs: 336, Produced CO2:144,48</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 5:00, Time to: 2/13/2023 6:00, Produced heat: 7,09, Net Electricity: 0, Production Costs: 349, Produced CO2:150,07</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 6:00, Time to: 2/13/2023 7:00, Produced heat: 7,34, Net Electricity: 0, Production Costs: 374, Produced CO2:160,82</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 7:00, Time to: 2/13/2023 8:00, Produced heat: 6,84, Net Electricity: 0, Production Costs: 324, Produced CO2:139,32</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 8:00, Time to: 2/13/2023 9:00, Produced heat: 6,94, Net Electricity: 0, Production Costs: 334, Produced CO2:143,62</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 9:00, Time to: 2/13/2023 10:00, Produced heat: 6,86, Net Electricity: 0, Production Costs: 326, Produced CO2:140,18</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 10:00, Time to: 2/13/2023 11:00, Produced heat: 6,73, Net Electricity: 0, Production Costs: 313, Produced CO2:134,59</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 11:00, Time to: 2/13/2023 12:00, Produced heat: 6,46, Net Electricity: 0, Production Costs: 286, Produced CO2:123</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 12:00, Time to: 2/13/2023 13:00, Produced heat: 6,21, Net Electricity: 0, Production Costs: 261, Produced CO2:112,23</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 13:00, Time to: 2/13/2023 14:00, Produced heat: 6,26, Net Electricity: 0, Production Costs: 266, Produced CO2:114,38</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 14:00, Time to: 2/13/2023 15:00, Produced heat: 6,34, Net Electricity: 0, Production Costs: 274, Produced CO2:117,82</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 15:00, Time to: 2/13/2023 16:00, Produced heat: 6,66, Net Electricity: 0, Production Costs: 306, Produced CO2:131,58</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 16:00, Time to: 2/13/2023 17:00, Produced heat: 6,71, Net Electricity: 0, Production Costs: 311, Produced CO2:133,73</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 17:00, Time to: 2/13/2023 18:00, Produced heat: 6,81, Net Electricity: 0, Production Costs: 321, Produced CO2:138,03</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 18:00, Time to: 2/13/2023 19:00, Produced heat: 6,47, Net Electricity: 0, Production Costs: 287, Produced CO2:123,41</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 19:00, Time to: 2/13/2023 20:00, Produced heat: 6,26, Net Electricity: 0, Production Costs: 266, Produced CO2:114,38</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 20:00, Time to: 2/13/2023 21:00, Produced heat: 6,20, Net Electricity: 0, Production Costs: 260, Produced CO2:111,8</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 21:00, Time to: 2/13/2023 22:00, Produced heat: 6,22, Net Electricity: 0, Production Costs: 262, Produced CO2:112,66</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 22:00, Time to: 2/13/2023 23:00, Produced heat: 6,15, Net Electricity: 0, Production Costs: 255, Produced CO2:109,65</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/13/2023 23:00, Time to: 2/14/2023 0:00, Produced heat: 6,19, Net Electricity: 0, Production Costs: 259, Produced CO2:111,37</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 0:00, Time to: 2/14/2023 1:00, Produced heat: 6,15, Net Electricity: 0, Production Costs: 255, Produced CO2:109,65</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 1:00, Time to: 2/14/2023 2:00, Produced heat: 6,33, Net Electricity: 0, Production Costs: 273, Produced CO2:117,39</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 2:00, Time to: 2/14/2023 3:00, Produced heat: 6,32, Net Electricity: 0, Production Costs: 272, Produced CO2:116,96</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 3:00, Time to: 2/14/2023 4:00, Produced heat: 6,38, Net Electricity: 0, Production Costs: 278, Produced CO2:119,55</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 4:00, Time to: 2/14/2023 5:00, Produced heat: 7,02, Net Electricity: 0, Production Costs: 342, Produced CO2:147,06</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 5:00, Time to: 2/14/2023 6:00, Produced heat: 7,21, Net Electricity: 0, Production Costs: 361, Produced CO2:155,23</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 6:00, Time to: 2/14/2023 7:00, Produced heat: 7,40, Net Electricity: 0, Production Costs: 380, Produced CO2:163,40</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 7:00, Time to: 2/14/2023 8:00, Produced heat: 6,92, Net Electricity: 0, Production Costs: 332, Produced CO2:142,76</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 8:00, Time to: 2/14/2023 9:00, Produced heat: 7,06, Net Electricity: 0, Production Costs: 346, Produced CO2:148,78</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 9:00, Time to: 2/14/2023 10:00, Produced heat: 7,02, Net Electricity: 0, Production Costs: 342, Produced CO2:147,06</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 10:00, Time to: 2/14/2023 11:00, Produced heat: 7,12, Net Electricity: 0, Production Costs: 352, Produced CO2:151,36</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 11:00, Time to: 2/14/2023 12:00, Produced heat: 7,08, Net Electricity: 0, Production Costs: 348, Produced CO2:149,64</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 12:00, Time to: 2/14/2023 13:00, Produced heat: 7,08, Net Electricity: 0, Production Costs: 348, Produced CO2:149,64</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 13:00, Time to: 2/14/2023 14:00, Produced heat: 7,00, Net Electricity: 0, Production Costs: 340, Produced CO2:146,20</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 14:00, Time to: 2/14/2023 15:00, Produced heat: 6,64, Net Electricity: 0, Production Costs: 304, Produced CO2:130,72</ListBoxItem>
+
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 15:00, Time to: 2/14/2023 16:00, Produced heat: 7,09, Net Electricity: 0, Production Costs: 349, Produced CO2:150,07</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 16:00, Time to: 2/14/2023 17:00, Produced heat: 7,07, Net Electricity: 0, Production Costs: 347, Produced CO2:149,21</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 17:00, Time to: 2/14/2023 18:00, Produced heat: 7,03, Net Electricity: 0, Production Costs: 343, Produced CO2:147,49</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 18:00, Time to: 2/14/2023 19:00, Produced heat: 6,53, Net Electricity: 0, Production Costs: 293, Produced CO2:125,99</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 19:00, Time to: 2/14/2023 20:00, Produced heat: 6,38, Net Electricity: 0, Production Costs: 278, Produced CO2:119,54</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 20:00, Time to: 2/14/2023 21:00, Produced heat: 6,51, Net Electricity: 0, Production Costs: 291, Produced CO2:125,13</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 21:00, Time to: 2/14/2023 22:00, Produced heat: 6,34, Net Electricity: 0, Production Costs: 274, Produced CO2:117,82</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 22:00, Time to: 2/14/2023 23:00, Produced heat: 6,41, Net Electricity: 0, Production Costs: 281, Produced CO2:120,83</ListBoxItem>
+
+										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/14/2023 23:00, Time to: 2/15/2023 0:00, Produced heat: 6,35, Net Electricity: 0, Production Costs: 275, Produced CO2:118,25</ListBoxItem>
 									</ListBox>
 								</ScrollViewer>
 							</TabItem>

@@ -53,7 +53,7 @@ public partial class InvoiceView : UserControl
         AvaPlot SummerOptimizer = this.Find<AvaPlot>("SummerOptimizer");
         // least prices orgin + optimizer 
         //orange 
-        double[] dataC = {1.7, 1.5, 1.3, 1.5, 1.7, 1.67,1.71  };// summer days produced heat when the pricre is the lowest 
+        double[] dataC = {1.77, 1.53, 1.39, 1.5, 1.7, 1.67,1.71  };// summer days produced heat when the pricre is the lowest 
 
         // produced heat vs heat demand
         // blue is heat demand
@@ -63,7 +63,7 @@ public partial class InvoiceView : UserControl
 
         SummerOptimizer.Refresh();
  
-        double[] dataP = {  3.02, 3.98 , 3.2, 2.75 ,2.45, 2.48 , 2.55};// winter days produced heat when the pricre is the lowest 
+        double[] dataP = { 6.62, 7.68 , 6.8 , 6.35 ,6.04, 6.08 , 6.15};// winter days produced heat when the pricre is the lowest 
         AvaPlot winter = this.Find<AvaPlot>("winter");
 
         winter.Plot.Add.Scatter(dataA, dataY);
