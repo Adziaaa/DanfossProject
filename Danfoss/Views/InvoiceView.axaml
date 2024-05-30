@@ -663,7 +663,7 @@
 								<ScrollViewer>
 									<ListBox FontSize="9" HorizontalAlignment="Left" VerticalAlignment="Top">
 
-										Winter Results - Cheapest Model:
+										
 										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 0:00, Time to: 2/8/2023 1:00, Produced heat: 6,62, Net Electricity: 0, Production Costs: 302, Produced CO2:129,86</ListBoxItem>
 
 										<ListBoxItem> Model Name:Gas Boiler, Time from: 2/8/2023 1:00, Time to: 2/8/2023 2:00, Produced heat: 6,85, Net Electricity: 0, Production Costs: 325, Produced CO2:139,75</ListBoxItem>
