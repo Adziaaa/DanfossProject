@@ -18,12 +18,5 @@ namespace Danfoss
         public string ModelName { get; set; }
 
 
-        //public void DisplayResult()
-        //{
-
-        //    Console.WriteLine("Model Name:" + ModelName + "Time from:" + TimeFrom + "Time to" + TimeTo +  "Produced heat" + ProducedHeat + "Net Electricity" + NetElectricity + "Production Costs" + ProductionCosts + "Produced CO2" + ProducedCO2);
-
-        //}
-
     }
 }

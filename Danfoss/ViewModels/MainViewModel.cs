@@ -13,7 +13,6 @@ public class MainViewModel(NavigationService? navigationService) : ReactiveObjec
     private readonly NavigationService? navigationService = navigationService;
 
     public ReactiveCommand<Unit, Unit> ShowLoginCommand { get; } = ReactiveCommand.Create(() => navigationService?.SwitchToView(NavigationService.ViewType.Login));
-    //public ReactiveCommand<Unit, Unit> LogOut { get; } = ReactiveCommand.Create(() => navigationService?.SwitchToView(NavigationService.ViewType.Main));
   
 }
 

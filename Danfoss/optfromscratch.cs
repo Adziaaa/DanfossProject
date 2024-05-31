@@ -178,12 +178,10 @@ namespace Danfoss
             foreach (SdmRecord sdmRecord in sdmRecords)
             {
                 List<ResultData> intervalResults = CalculateResultDataForInterval(models, sdmRecord);
-                //Console.WriteLine(intervalResults.Count);
                 resultData.AddRange(intervalResults);
 
 
                 List<ResultData> intervalCO2Results = CalculateCO2ResultDataForInterval(models, sdmRecord);
-                //Console.WriteLine(intervalResults.Count);
                 co2ResultData.AddRange(intervalCO2Results);
             }
             return (resultData, co2ResultData);
